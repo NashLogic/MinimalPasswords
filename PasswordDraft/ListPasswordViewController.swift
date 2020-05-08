@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-import SQLite
+//import SQLite
 import SQLite3
 
 class ListPasswordsViewController: UIViewController {
@@ -119,8 +119,11 @@ class ListPasswordsViewController: UIViewController {
         let newButton = CustomButton()
         view.addSubview(newButton)
         newButton.setTitle("Button", for: .normal)
-        newButton.frame = CGRect(x: <#T##CGFloat#>, y: <#T##CGFloat#>, width: <#T##CGFloat#>, height: <#T##CGFloat#>)
-//        newButton.translatesAutoresizingMaskIntoConstraints = false
+//        newButton.frame = CGRect(x: <#T##CGFloat#>, y: <#T##CGFloat#>, width: <#T##CGFloat#>, height: <#T##CGFloat#>)
+
+        
+        
+        //        newButton.translatesAutoresizingMaskIntoConstraints = false
         
         // 2 statements below are for (h x w)
 //        newButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
