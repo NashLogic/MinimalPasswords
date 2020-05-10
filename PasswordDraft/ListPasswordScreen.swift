@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-//import SQLite
+import SQLite
 import SQLite3
 
 class ListPasswordsViewController: UIViewController {
