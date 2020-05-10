@@ -4,9 +4,9 @@
 <array>
 	<string>Dispatch</string>
 	<string>SQLite3</string>
-	<string>SQLiteObjc</string>
 	<string>SQLCipher</string>
 	<string>SQLite</string>
+	<string>SQLiteObjc</string>
 	<string>sqlite3</string>
 	<string>CSQLite</string>
 	<string>UIKit</string>

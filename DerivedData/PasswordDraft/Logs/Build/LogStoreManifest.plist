@@ -312,6 +312,40 @@
 			<key>uniqueIdentifier</key>
 			<string>DE11C3C0-D2D0-4F10-8F5A-025F3882EB4E</string>
 		</dict>
+		<key>E26BA1B4-2D32-4A38-827C-3DAEBC6D4A1D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E26BA1B4-2D32-4A38-827C-3DAEBC6D4A1D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>610795038.75937796</real>
+			<key>timeStoppedRecording</key>
+			<real>610795042.36373305</real>
+			<key>title</key>
+			<string>Build PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>E26BA1B4-2D32-4A38-827C-3DAEBC6D4A1D</string>
+		</dict>
 		<key>E8ACF5FE-5BF4-4F4C-9715-778FF288AC62</key>
 		<dict>
 			<key>className</key>

@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>01207E47-460C-48B6-9A7E-BE0125A2DF2C</key>
+		<key>415D52F0-28ED-463B-952D-71928FBF52C4</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>01207E47-460C-48B6-9A7E-BE0125A2DF2C.xcactivitylog</string>
+			<string>415D52F0-28ED-463B-952D-71928FBF52C4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,15 +26,15 @@
 			<key>signature</key>
 			<string>PasswordDraft-eslputrzjxqptlfyofmcdzdtciej</string>
 			<key>timeStartedRecording</key>
-			<real>610787936.84808397</real>
+			<real>610795039.15318501</real>
 			<key>timeStoppedRecording</key>
-			<real>610787940.14173996</real>
+			<real>610795042.35071695</real>
 			<key>title</key>
 			<string>Build target PasswordDraft</string>
 			<key>uniqueIdentifier</key>
-			<string>01207E47-460C-48B6-9A7E-BE0125A2DF2C</string>
+			<string>415D52F0-28ED-463B-952D-71928FBF52C4</string>
 		</dict>
-		<key>0897D45A-B29E-4527-801D-27206675A12D</key>
+		<key>6833B87D-7F3B-40ED-ACED-5410B12BA91C</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
 			<key>fileName</key>
-			<string>0897D45A-B29E-4527-801D-27206675A12D.xcactivitylog</string>
+			<string>6833B87D-7F3B-40ED-ACED-5410B12BA91C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,13 +54,13 @@
 			<key>signature</key>
 			<string>SQLite.swift-drfddiiwqaspupfjkruilktpnagg</string>
 			<key>timeStartedRecording</key>
-			<real>610787721.63885796</real>
+			<real>610787974.62277699</real>
 			<key>timeStoppedRecording</key>
-			<real>610787733.102795</real>
+			<real>610787974.64215696</real>
 			<key>title</key>
 			<string>Build target SQLite.swift</string>
 			<key>uniqueIdentifier</key>
-			<string>0897D45A-B29E-4527-801D-27206675A12D</string>
+			<string>6833B87D-7F3B-40ED-ACED-5410B12BA91C</string>
 		</dict>
 		<key>ED5CEF28-2E39-456A-B6AC-63A08887EAA4</key>
 		<dict>

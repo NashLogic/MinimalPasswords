@@ -66,6 +66,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		56C3A0BB2467FDE600D79039 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				56B9823E23D9A974009E6F90 /* ListPasswordScreen.swift */,
+				56CB9A6F23AB4D4A000829DD /* GeneratePasswordScreen.swift */,
+				569CF27423D7C28900D9EF6C /* MainMenuScreen.swift */,
+				56D4179423D3BF0D00541526 /* LoginScreen.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		56C3A0BC2467FE4C00D79039 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				56CB9A7623AB4D62000829DD /* LaunchScreen.storyboard */,
+				56CB9A7123AB4D4A000829DD /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		56C3A0BD2467FE6900D79039 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5632AF9223F02174009B7A5E /* CustomButton.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		56C3A0BE2467FE9400D79039 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				56CB9A6B23AB4D4A000829DD /* AppDelegate.swift */,
+				56CB9A6D23AB4D4A000829DD /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
 		56CB9A5F23AB4D4A000829DD = {
 			isa = PBXGroup;
 			children = (
@@ -87,18 +124,13 @@
 		56CB9A6A23AB4D4A000829DD /* PasswordDraft */ = {
 			isa = PBXGroup;
 			children = (
-				56CB9A6B23AB4D4A000829DD /* AppDelegate.swift */,
-				56CB9A6D23AB4D4A000829DD /* SceneDelegate.swift */,
-				56CB9A6F23AB4D4A000829DD /* GeneratePasswordScreen.swift */,
-				5632AF9223F02174009B7A5E /* CustomButton.swift */,
-				569CF27423D7C28900D9EF6C /* MainMenuScreen.swift */,
-				56CB9A7123AB4D4A000829DD /* Main.storyboard */,
-				56B9823E23D9A974009E6F90 /* ListPasswordScreen.swift */,
+				56C3A0BE2467FE9400D79039 /* Delegates */,
+				56C3A0BD2467FE6900D79039 /* Common */,
+				56C3A0BC2467FE4C00D79039 /* Storyboards */,
+				56C3A0BB2467FDE600D79039 /* ViewControllers */,
 				56D4179D23D3C02800541526 /* MainNavigationController.swift */,
-				56D4179423D3BF0D00541526 /* LoginScreen.swift */,
-				56CB9A7423AB4D62000829DD /* Assets.xcassets */,
-				56CB9A7623AB4D62000829DD /* LaunchScreen.storyboard */,
 				56CB9A7923AB4D62000829DD /* Info.plist */,
+				56CB9A7423AB4D62000829DD /* Assets.xcassets */,
 			);
 			path = PasswordDraft;
 			sourceTree = "<group>";
