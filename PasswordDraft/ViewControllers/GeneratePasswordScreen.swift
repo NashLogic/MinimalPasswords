@@ -79,7 +79,7 @@ class ViewController: UIViewController {
             let companyToBeSaved = companyName.text!
             let usernameToBeSaved = username.text!
             do {
-                let insertStatementString = "INSERT INTO passwordsTable (id, login, company, password, directory, within) VALUES (null, '\(usernameToBeSaved)', '\(companyToBeSaved)', '\(passwordToBeSaved)', 'rec', 'main')"
+                let insertStatementString = "INSERT INTO passwordsTable (id, login, company, password, directory, within) VALUES (null, '\(companyToBeSaved)',   '\(usernameToBeSaved)', '\(passwordToBeSaved)',  'rec', 'main')"
                 insert(insertStatementString: insertStatementString)
                 print("Successfully saved password to database")
                 

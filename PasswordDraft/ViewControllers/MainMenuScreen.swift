@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 import SQLite
 import SQLite3
+import SwiftUI
 
 class MainMenuViewController: UIViewController {
     
@@ -96,5 +97,10 @@ class MainMenuViewController: UIViewController {
         }
     }
     
+    
+    
+    @IBSegueAction func showSwiftUIView(_ coder: NSCoder) -> UIViewController? {
+        return UIHostingController(coder: coder, rootView: SwiftUIView(text: ""))
+    }
     
 }

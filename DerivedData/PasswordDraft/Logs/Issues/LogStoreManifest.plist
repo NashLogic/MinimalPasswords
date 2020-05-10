@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>415D52F0-28ED-463B-952D-71928FBF52C4</key>
+		<key>5E549C6B-A439-47FE-917E-8BDE651D5AAA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>415D52F0-28ED-463B-952D-71928FBF52C4.xcactivitylog</string>
+			<string>5E549C6B-A439-47FE-917E-8BDE651D5AAA.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,15 +26,15 @@
 			<key>signature</key>
 			<string>PasswordDraft-eslputrzjxqptlfyofmcdzdtciej</string>
 			<key>timeStartedRecording</key>
-			<real>610795039.15318501</real>
+			<real>610805583.42569804</real>
 			<key>timeStoppedRecording</key>
-			<real>610795042.35071695</real>
+			<real>610805585.51615596</real>
 			<key>title</key>
 			<string>Build target PasswordDraft</string>
 			<key>uniqueIdentifier</key>
-			<string>415D52F0-28ED-463B-952D-71928FBF52C4</string>
+			<string>5E549C6B-A439-47FE-917E-8BDE651D5AAA</string>
 		</dict>
-		<key>6833B87D-7F3B-40ED-ACED-5410B12BA91C</key>
+		<key>9A997279-3411-460D-BC4F-CD6FEF9F6554</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
 			<key>fileName</key>
-			<string>6833B87D-7F3B-40ED-ACED-5410B12BA91C.xcactivitylog</string>
+			<string>9A997279-3411-460D-BC4F-CD6FEF9F6554.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,15 +54,15 @@
 			<key>signature</key>
 			<string>SQLite.swift-drfddiiwqaspupfjkruilktpnagg</string>
 			<key>timeStartedRecording</key>
-			<real>610787974.62277699</real>
+			<real>610805509.40848505</real>
 			<key>timeStoppedRecording</key>
-			<real>610787974.64215696</real>
+			<real>610805522.92293</real>
 			<key>title</key>
 			<string>Build target SQLite.swift</string>
 			<key>uniqueIdentifier</key>
-			<string>6833B87D-7F3B-40ED-ACED-5410B12BA91C</string>
+			<string>9A997279-3411-460D-BC4F-CD6FEF9F6554</string>
 		</dict>
-		<key>ED5CEF28-2E39-456A-B6AC-63A08887EAA4</key>
+		<key>EA07867F-18ED-409D-BDD2-CDC549AF4A81</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -71,7 +71,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
 			<key>fileName</key>
-			<string>ED5CEF28-2E39-456A-B6AC-63A08887EAA4.xcactivitylog</string>
+			<string>EA07867F-18ED-409D-BDD2-CDC549AF4A81.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,13 +82,13 @@
 			<key>signature</key>
 			<string>Pods-PasswordDraft-drfddiiwqaspupfjkruilktpnagg</string>
 			<key>timeStartedRecording</key>
-			<real>610787936.82692397</real>
+			<real>610805522.92433798</real>
 			<key>timeStoppedRecording</key>
-			<real>610787936.84366703</real>
+			<real>610805525.07060397</real>
 			<key>title</key>
 			<string>Build target Pods-PasswordDraft</string>
 			<key>uniqueIdentifier</key>
-			<string>ED5CEF28-2E39-456A-B6AC-63A08887EAA4</string>
+			<string>EA07867F-18ED-409D-BDD2-CDC549AF4A81</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

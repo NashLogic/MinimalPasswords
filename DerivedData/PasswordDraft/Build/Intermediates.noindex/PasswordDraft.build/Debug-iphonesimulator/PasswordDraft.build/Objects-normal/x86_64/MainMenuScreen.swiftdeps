@@ -7,6 +7,7 @@ provides-member:
 - ["13PasswordDraft22MainMenuViewControllerC", ""]
 provides-dynamic-lookup:
 - "prepare"
+- "showSwiftUIView"
 - "viewDidLoad"
 depends-top-level:
 - !private "=="
@@ -20,12 +21,15 @@ depends-top-level:
 - !private "IntegerLiteralType"
 - !private "ListPasswordsViewController"
 - "MainMenuViewController"
+- "NSCoder"
 - "OpaquePointer"
 - !private "SQLITE_DONE"
 - !private "SQLITE_OK"
 - "String"
 - "StringLiteralType"
+- !private "SwiftUIView"
 - "Table"
+- !private "UIHostingController"
 - "UIStoryboardSegue"
 - "UIViewController"
 - !private "ViewController"
@@ -39,7 +43,9 @@ depends-member:
 - !private ["s7CVarArgP", "FileManager"]
 - !private ["s7CVarArgP", "SQLITE_DONE"]
 - !private ["s7CVarArgP", "SQLITE_OK"]
+- !private ["s7CVarArgP", "SwiftUIView"]
 - ["s7CVarArgP", "Table"]
+- !private ["s7CVarArgP", "UIHostingController"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "createTable"]
 - !private ["s7CVarArgP", "createTableString"]
@@ -60,7 +66,9 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "FileManager"]
 - !private ["s28CustomDebugStringConvertibleP", "SQLITE_DONE"]
 - !private ["s28CustomDebugStringConvertibleP", "SQLITE_OK"]
+- !private ["s28CustomDebugStringConvertibleP", "SwiftUIView"]
 - ["s28CustomDebugStringConvertibleP", "Table"]
+- !private ["s28CustomDebugStringConvertibleP", "UIHostingController"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
 - !private ["s28CustomDebugStringConvertibleP", "appendingPathExtension"]
@@ -84,7 +92,9 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "FileManager"]
 - !private ["s23CustomStringConvertibleP", "SQLITE_DONE"]
 - !private ["s23CustomStringConvertibleP", "SQLITE_OK"]
+- !private ["s23CustomStringConvertibleP", "SwiftUIView"]
 - ["s23CustomStringConvertibleP", "Table"]
+- !private ["s23CustomStringConvertibleP", "UIHostingController"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
@@ -118,7 +128,9 @@ depends-member:
 - !private ["SQ", "FileManager"]
 - !private ["SQ", "SQLITE_DONE"]
 - !private ["SQ", "SQLITE_OK"]
+- !private ["SQ", "SwiftUIView"]
 - ["SQ", "Table"]
+- !private ["SQ", "UIHostingController"]
 - ["SQ", ""]
 - !private ["SQ", "appendingPathComponent"]
 - !private ["SQ", "appendingPathExtension"]
@@ -150,7 +162,9 @@ depends-member:
 - !private ["SH", "FileManager"]
 - !private ["SH", "SQLITE_DONE"]
 - !private ["SH", "SQLITE_OK"]
+- !private ["SH", "SwiftUIView"]
 - ["SH", "Table"]
+- !private ["SH", "UIHostingController"]
 - ["SH", ""]
 - !private ["SH", "appendingPathComponent"]
 - !private ["SH", "appendingPathExtension"]
@@ -176,12 +190,16 @@ depends-member:
 - !private ["13PasswordDraft22MainMenuViewControllerC", "FileManager"]
 - ["13PasswordDraft22MainMenuViewControllerC", "Int"]
 - !private ["13PasswordDraft22MainMenuViewControllerC", "ListPasswordsViewController"]
+- ["13PasswordDraft22MainMenuViewControllerC", "NSCoder"]
 - ["13PasswordDraft22MainMenuViewControllerC", "OpaquePointer"]
 - !private ["13PasswordDraft22MainMenuViewControllerC", "SQLITE_DONE"]
 - !private ["13PasswordDraft22MainMenuViewControllerC", "SQLITE_OK"]
 - ["13PasswordDraft22MainMenuViewControllerC", "String"]
+- !private ["13PasswordDraft22MainMenuViewControllerC", "SwiftUIView"]
 - ["13PasswordDraft22MainMenuViewControllerC", "Table"]
+- !private ["13PasswordDraft22MainMenuViewControllerC", "UIHostingController"]
 - ["13PasswordDraft22MainMenuViewControllerC", "UIStoryboardSegue"]
+- ["13PasswordDraft22MainMenuViewControllerC", "UIViewController"]
 - !private ["13PasswordDraft22MainMenuViewControllerC", "ViewController"]
 - ["13PasswordDraft22MainMenuViewControllerC", "company"]
 - ["13PasswordDraft22MainMenuViewControllerC", "createTable"]
@@ -198,6 +216,7 @@ depends-member:
 - ["13PasswordDraft22MainMenuViewControllerC", "passwordsTable"]
 - ["13PasswordDraft22MainMenuViewControllerC", "prepare"]
 - !private ["13PasswordDraft22MainMenuViewControllerC", "print"]
+- ["13PasswordDraft22MainMenuViewControllerC", "showSwiftUIView"]
 - !private ["13PasswordDraft22MainMenuViewControllerC", "sqlite3_finalize"]
 - !private ["13PasswordDraft22MainMenuViewControllerC", "sqlite3_open"]
 - !private ["13PasswordDraft22MainMenuViewControllerC", "sqlite3_prepare_v2"]
@@ -207,7 +226,9 @@ depends-member:
 - !private ["So8NSCodingP", "FileManager"]
 - !private ["So8NSCodingP", "SQLITE_DONE"]
 - !private ["So8NSCodingP", "SQLITE_OK"]
+- !private ["So8NSCodingP", "SwiftUIView"]
 - ["So8NSCodingP", "Table"]
+- !private ["So8NSCodingP", "UIHostingController"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "createTable"]
 - !private ["So8NSCodingP", "createTableString"]
@@ -225,7 +246,9 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "FileManager"]
 - !private ["So26NSExtensionRequestHandlingP", "SQLITE_DONE"]
 - !private ["So26NSExtensionRequestHandlingP", "SQLITE_OK"]
+- !private ["So26NSExtensionRequestHandlingP", "SwiftUIView"]
 - ["So26NSExtensionRequestHandlingP", "Table"]
+- !private ["So26NSExtensionRequestHandlingP", "UIHostingController"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "createTable"]
 - !private ["So26NSExtensionRequestHandlingP", "createTableString"]
@@ -243,12 +266,16 @@ depends-member:
 - !private ["So8NSObjectC", "FileManager"]
 - ["So8NSObjectC", "Int"]
 - !private ["So8NSObjectC", "ListPasswordsViewController"]
+- ["So8NSObjectC", "NSCoder"]
 - ["So8NSObjectC", "OpaquePointer"]
 - !private ["So8NSObjectC", "SQLITE_DONE"]
 - !private ["So8NSObjectC", "SQLITE_OK"]
 - ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "SwiftUIView"]
 - ["So8NSObjectC", "Table"]
+- !private ["So8NSObjectC", "UIHostingController"]
 - ["So8NSObjectC", "UIStoryboardSegue"]
+- ["So8NSObjectC", "UIViewController"]
 - !private ["So8NSObjectC", "ViewController"]
 - ["So8NSObjectC", "company"]
 - ["So8NSObjectC", "createTable"]
@@ -266,6 +293,7 @@ depends-member:
 - ["So8NSObjectC", "passwordsTable"]
 - ["So8NSObjectC", "prepare"]
 - !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "showSwiftUIView"]
 - !private ["So8NSObjectC", "sqlite3_finalize"]
 - !private ["So8NSObjectC", "sqlite3_open"]
 - !private ["So8NSObjectC", "sqlite3_prepare_v2"]
@@ -276,7 +304,9 @@ depends-member:
 - !private ["So8NSObjectP", "FileManager"]
 - !private ["So8NSObjectP", "SQLITE_DONE"]
 - !private ["So8NSObjectP", "SQLITE_OK"]
+- !private ["So8NSObjectP", "SwiftUIView"]
 - ["So8NSObjectP", "Table"]
+- !private ["So8NSObjectP", "UIHostingController"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "createTable"]
 - !private ["So8NSObjectP", "createTableString"]
@@ -306,6 +336,7 @@ depends-member:
 - !private ["s10SetAlgebraP", "userDomainMask"]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["13PasswordDraft11SwiftUIViewV", "init"]
 - ["6SQLite5TableV", "init"]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
@@ -313,7 +344,9 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "FileManager"]
 - !private ["So21UIAppearanceContainerP", "SQLITE_DONE"]
 - !private ["So21UIAppearanceContainerP", "SQLITE_OK"]
+- !private ["So21UIAppearanceContainerP", "SwiftUIView"]
 - ["So21UIAppearanceContainerP", "Table"]
+- !private ["So21UIAppearanceContainerP", "UIHostingController"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "createTable"]
 - !private ["So21UIAppearanceContainerP", "createTableString"]
@@ -331,7 +364,9 @@ depends-member:
 - !private ["So18UIContentContainerP", "FileManager"]
 - !private ["So18UIContentContainerP", "SQLITE_DONE"]
 - !private ["So18UIContentContainerP", "SQLITE_OK"]
+- !private ["So18UIContentContainerP", "SwiftUIView"]
 - ["So18UIContentContainerP", "Table"]
+- !private ["So18UIContentContainerP", "UIHostingController"]
 - ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "createTable"]
 - !private ["So18UIContentContainerP", "createTableString"]
@@ -349,7 +384,9 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "FileManager"]
 - !private ["So18UIFocusEnvironmentP", "SQLITE_DONE"]
 - !private ["So18UIFocusEnvironmentP", "SQLITE_OK"]
+- !private ["So18UIFocusEnvironmentP", "SwiftUIView"]
 - ["So18UIFocusEnvironmentP", "Table"]
+- !private ["So18UIFocusEnvironmentP", "UIHostingController"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "createTable"]
 - !private ["So18UIFocusEnvironmentP", "createTableString"]
@@ -363,11 +400,14 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "sqlite3_prepare_v2"]
 - !private ["So18UIFocusEnvironmentP", "sqlite3_step"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["7SwiftUI19UIHostingControllerC", "init"]
 - ["So30UIPasteConfigurationSupportingP", "Expression"]
 - !private ["So30UIPasteConfigurationSupportingP", "FileManager"]
 - !private ["So30UIPasteConfigurationSupportingP", "SQLITE_DONE"]
 - !private ["So30UIPasteConfigurationSupportingP", "SQLITE_OK"]
+- !private ["So30UIPasteConfigurationSupportingP", "SwiftUIView"]
 - ["So30UIPasteConfigurationSupportingP", "Table"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIHostingController"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "createTable"]
 - !private ["So30UIPasteConfigurationSupportingP", "createTableString"]
@@ -385,12 +425,16 @@ depends-member:
 - !private ["So11UIResponderC", "FileManager"]
 - ["So11UIResponderC", "Int"]
 - !private ["So11UIResponderC", "ListPasswordsViewController"]
+- ["So11UIResponderC", "NSCoder"]
 - ["So11UIResponderC", "OpaquePointer"]
 - !private ["So11UIResponderC", "SQLITE_DONE"]
 - !private ["So11UIResponderC", "SQLITE_OK"]
 - ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "SwiftUIView"]
 - ["So11UIResponderC", "Table"]
+- !private ["So11UIResponderC", "UIHostingController"]
 - ["So11UIResponderC", "UIStoryboardSegue"]
+- ["So11UIResponderC", "UIViewController"]
 - !private ["So11UIResponderC", "ViewController"]
 - ["So11UIResponderC", "company"]
 - ["So11UIResponderC", "createTable"]
@@ -406,6 +450,7 @@ depends-member:
 - ["So11UIResponderC", "passwordsTable"]
 - ["So11UIResponderC", "prepare"]
 - !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "showSwiftUIView"]
 - !private ["So11UIResponderC", "sqlite3_finalize"]
 - !private ["So11UIResponderC", "sqlite3_open"]
 - !private ["So11UIResponderC", "sqlite3_prepare_v2"]
@@ -415,7 +460,9 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "FileManager"]
 - !private ["So30UIResponderStandardEditActionsP", "SQLITE_DONE"]
 - !private ["So30UIResponderStandardEditActionsP", "SQLITE_OK"]
+- !private ["So30UIResponderStandardEditActionsP", "SwiftUIView"]
 - ["So30UIResponderStandardEditActionsP", "Table"]
+- !private ["So30UIResponderStandardEditActionsP", "UIHostingController"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "createTable"]
 - !private ["So30UIResponderStandardEditActionsP", "createTableString"]
@@ -433,7 +480,9 @@ depends-member:
 - !private ["So16UIStateRestoringP", "FileManager"]
 - !private ["So16UIStateRestoringP", "SQLITE_DONE"]
 - !private ["So16UIStateRestoringP", "SQLITE_OK"]
+- !private ["So16UIStateRestoringP", "SwiftUIView"]
 - ["So16UIStateRestoringP", "Table"]
+- !private ["So16UIStateRestoringP", "UIHostingController"]
 - ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "createTable"]
 - !private ["So16UIStateRestoringP", "createTableString"]
@@ -452,7 +501,9 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "FileManager"]
 - !private ["So18UITraitEnvironmentP", "SQLITE_DONE"]
 - !private ["So18UITraitEnvironmentP", "SQLITE_OK"]
+- !private ["So18UITraitEnvironmentP", "SwiftUIView"]
 - ["So18UITraitEnvironmentP", "Table"]
+- !private ["So18UITraitEnvironmentP", "UIHostingController"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "createTable"]
 - !private ["So18UITraitEnvironmentP", "createTableString"]
@@ -470,7 +521,9 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "FileManager"]
 - !private ["So23UIUserActivityRestoringP", "SQLITE_DONE"]
 - !private ["So23UIUserActivityRestoringP", "SQLITE_OK"]
+- !private ["So23UIUserActivityRestoringP", "SwiftUIView"]
 - ["So23UIUserActivityRestoringP", "Table"]
+- !private ["So23UIUserActivityRestoringP", "UIHostingController"]
 - ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "createTable"]
 - !private ["So23UIUserActivityRestoringP", "createTableString"]
@@ -488,12 +541,16 @@ depends-member:
 - !private ["So16UIViewControllerC", "FileManager"]
 - ["So16UIViewControllerC", "Int"]
 - !private ["So16UIViewControllerC", "ListPasswordsViewController"]
+- ["So16UIViewControllerC", "NSCoder"]
 - ["So16UIViewControllerC", "OpaquePointer"]
 - !private ["So16UIViewControllerC", "SQLITE_DONE"]
 - !private ["So16UIViewControllerC", "SQLITE_OK"]
 - ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "SwiftUIView"]
 - ["So16UIViewControllerC", "Table"]
+- !private ["So16UIViewControllerC", "UIHostingController"]
 - ["So16UIViewControllerC", "UIStoryboardSegue"]
+- ["So16UIViewControllerC", "UIViewController"]
 - !private ["So16UIViewControllerC", "ViewController"]
 - ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "company"]
@@ -510,6 +567,7 @@ depends-member:
 - ["So16UIViewControllerC", "passwordsTable"]
 - ["So16UIViewControllerC", "prepare"]
 - !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "showSwiftUIView"]
 - !private ["So16UIViewControllerC", "sqlite3_finalize"]
 - !private ["So16UIViewControllerC", "sqlite3_open"]
 - !private ["So16UIViewControllerC", "sqlite3_prepare_v2"]
@@ -518,6 +576,7 @@ depends-member:
 - !private ["10Foundation3URLV", "appendingPathComponent"]
 - !private ["10Foundation3URLV", "appendingPathExtension"]
 - !private ["10Foundation3URLV", "path"]
+- !private ["7SwiftUI4ViewP", "init"]
 - !private ["13PasswordDraft14ViewControllerC", "globalDatabase"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathComponent"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathExtension"]
@@ -529,7 +588,9 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "FileManager"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "SQLITE_DONE"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "SQLITE_OK"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SwiftUIView"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "Table"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIHostingController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "createTable"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "createTableString"]
@@ -550,7 +611,9 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FileManager"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SQLITE_DONE"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SQLITE_OK"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SwiftUIView"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Table"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIHostingController"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "createTable"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "createTableString"]
@@ -570,6 +633,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
 - !private ["s21_ObjectiveCBridgeableP", "appendingPathExtension"]
 - !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["7SwiftUI18_UIHostingViewableP", "init"]
 depends-nominal:
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
@@ -599,11 +663,13 @@ depends-nominal:
 - !private "So22NSSearchPathDomainMaskV"
 - !private "s10SetAlgebraP"
 - !private "s27StringInterpolationProtocolP"
+- "13PasswordDraft11SwiftUIViewV"
 - "6SQLite5TableV"
 - !private "s16TextOutputStreamP"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
 - "So18UIFocusEnvironmentP"
+- "7SwiftUI19UIHostingControllerC"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
@@ -613,15 +679,18 @@ depends-nominal:
 - "So23UIUserActivityRestoringP"
 - "So16UIViewControllerC"
 - !private "10Foundation3URLV"
+- !private "7SwiftUI4ViewP"
 - !private "13PasswordDraft14ViewControllerC"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "s21_ObjectiveCBridgeableP"
+- !private "7SwiftUI18_UIHostingViewableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
@@ -630,11 +699,14 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SwiftUI.framework/Modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
@@ -643,9 +715,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/nicholasglover/Documents/GitHub/MinimalPasswords/DerivedData/PasswordDraft/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/nicholasglover/Documents/GitHub/MinimalPasswords/DerivedData/PasswordDraft/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.swift-umbrella.h"
@@ -655,6 +729,7 @@ depends-external:
 - "/Users/nicholasglover/Documents/GitHub/MinimalPasswords/DerivedData/PasswordDraft/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
@@ -663,7 +738,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "a439abd10f237bbc53201efe838318fa"
+interface-hash: "06b977467fdecf31108da1048ffd5650"

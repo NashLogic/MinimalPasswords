@@ -5,9 +5,10 @@
 	<string>Dispatch</string>
 	<string>SQLite3</string>
 	<string>SQLCipher</string>
-	<string>SQLite</string>
+	<string>SwiftUI</string>
 	<string>SQLiteObjc</string>
 	<string>sqlite3</string>
+	<string>SQLite</string>
 	<string>CSQLite</string>
 	<string>UIKit</string>
 	<string>Foundation</string>

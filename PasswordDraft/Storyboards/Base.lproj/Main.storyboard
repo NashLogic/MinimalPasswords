@@ -258,7 +258,33 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="unq-Vr-oeK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2134.7826086956525" y="-276.5625"/>
+            <point key="canvasLocation" x="1871" y="-478"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="amH-D3-NcW">
+            <objects>
+                <viewController id="4A7-Vq-0bI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RfJ-5i-izK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="One-L2-v1v"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="l9S-cj-0Vm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ezb-qC-QGP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3325" y="-277"/>
+        </scene>
+        <!--Hosting Controller-->
+        <scene sceneID="diz-Ya-d8N">
+            <objects>
+                <hostingController id="IJ8-ET-cdh" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="PIc-Z5-YT7"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yry-SJ-TyQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4255" y="-277"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="tn9-ay-dU4">
@@ -358,7 +384,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="101" height="30"/>
                                         <state key="normal" title="Password List"/>
                                         <connections>
-                                            <segue destination="Jjl-Vh-bwG" kind="show" id="frg-8C-X0I"/>
+                                            <segue destination="IJ8-ET-cdh" kind="show" destinationCreationSelector="showSwiftUIView:" id="gVK-pd-shN"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpa-X3-bHv">
