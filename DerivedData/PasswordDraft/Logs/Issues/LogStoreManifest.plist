@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>01207E47-460C-48B6-9A7E-BE0125A2DF2C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>01207E47-460C-48B6-9A7E-BE0125A2DF2C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>PasswordDraft-eslputrzjxqptlfyofmcdzdtciej</string>
+			<key>timeStartedRecording</key>
+			<real>610787936.84808397</real>
+			<key>timeStoppedRecording</key>
+			<real>610787940.14173996</real>
+			<key>title</key>
+			<string>Build target PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>01207E47-460C-48B6-9A7E-BE0125A2DF2C</string>
+		</dict>
+		<key>0897D45A-B29E-4527-801D-27206675A12D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
+			<key>fileName</key>
+			<string>0897D45A-B29E-4527-801D-27206675A12D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>SQLite.swift-drfddiiwqaspupfjkruilktpnagg</string>
+			<key>timeStartedRecording</key>
+			<real>610787721.63885796</real>
+			<key>timeStoppedRecording</key>
+			<real>610787733.102795</real>
+			<key>title</key>
+			<string>Build target SQLite.swift</string>
+			<key>uniqueIdentifier</key>
+			<string>0897D45A-B29E-4527-801D-27206675A12D</string>
+		</dict>
+		<key>ED5CEF28-2E39-456A-B6AC-63A08887EAA4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
+			<key>fileName</key>
+			<string>ED5CEF28-2E39-456A-B6AC-63A08887EAA4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-PasswordDraft-drfddiiwqaspupfjkruilktpnagg</string>
+			<key>timeStartedRecording</key>
+			<real>610787936.82692397</real>
+			<key>timeStoppedRecording</key>
+			<real>610787936.84366703</real>
+			<key>title</key>
+			<string>Build target Pods-PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>ED5CEF28-2E39-456A-B6AC-63A08887EAA4</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

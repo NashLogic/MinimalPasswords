@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>BA65BD1F-23F8-4E13-ADD6-DB25641E7A16</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BA65BD1F-23F8-4E13-ADD6-DB25641E7A16.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>610787757.36752796</real>
+			<key>timeStoppedRecording</key>
+			<real>610787936.59331</real>
+			<key>title</key>
+			<string>Debug PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>BA65BD1F-23F8-4E13-ADD6-DB25641E7A16</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

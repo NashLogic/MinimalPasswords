@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>03BA7F5C-CA02-45C8-8971-92A4C4D62075</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>03BA7F5C-CA02-45C8-8971-92A4C4D62075.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>610787596.22699499</real>
+			<key>timeStoppedRecording</key>
+			<real>610787614.14433897</real>
+			<key>title</key>
+			<string>Build PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>03BA7F5C-CA02-45C8-8971-92A4C4D62075</string>
+		</dict>
+		<key>0CCF9D32-B122-4F22-9AA3-7FF8A56A3538</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0CCF9D32-B122-4F22-9AA3-7FF8A56A3538.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>610787402.01946604</real>
+			<key>timeStoppedRecording</key>
+			<real>610787402.60125899</real>
+			<key>title</key>
+			<string>Build PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>0CCF9D32-B122-4F22-9AA3-7FF8A56A3538</string>
+		</dict>
+		<key>37C889F9-474A-4814-88BF-746B92A5F63A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>37C889F9-474A-4814-88BF-746B92A5F63A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>610787078.47671199</real>
+			<key>timeStoppedRecording</key>
+			<real>610787092.29680896</real>
+			<key>title</key>
+			<string>Build PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>37C889F9-474A-4814-88BF-746B92A5F63A</string>
+		</dict>
+		<key>3EF67291-E139-4D60-9CBA-F5987CE523CD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3EF67291-E139-4D60-9CBA-F5987CE523CD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>610787936.54088199</real>
+			<key>timeStoppedRecording</key>
+			<real>610787940.15566003</real>
+			<key>title</key>
+			<string>Build PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>3EF67291-E139-4D60-9CBA-F5987CE523CD</string>
+		</dict>
+		<key>63638557-EF40-4190-82E3-C95D36B50C7A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>63638557-EF40-4190-82E3-C95D36B50C7A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>610787401.69612098</real>
+			<key>timeStoppedRecording</key>
+			<real>610787401.74817395</real>
+			<key>title</key>
+			<string>Build PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>63638557-EF40-4190-82E3-C95D36B50C7A</string>
+		</dict>
+		<key>92B69688-F538-4387-9328-D9A6552A949F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>92B69688-F538-4387-9328-D9A6552A949F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>610787402.85897398</real>
+			<key>timeStoppedRecording</key>
+			<real>610787403.07296002</real>
+			<key>title</key>
+			<string>Build PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>92B69688-F538-4387-9328-D9A6552A949F</string>
+		</dict>
+		<key>AE01F173-E8D9-4BEC-9CEC-7B4F6F7B3B43</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AE01F173-E8D9-4BEC-9CEC-7B4F6F7B3B43.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>610787218.85753798</real>
+			<key>timeStoppedRecording</key>
+			<real>610787238.80409801</real>
+			<key>title</key>
+			<string>Build PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>AE01F173-E8D9-4BEC-9CEC-7B4F6F7B3B43</string>
+		</dict>
+		<key>C9CF9D7A-76E1-4069-9FFC-FA91102402A2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C9CF9D7A-76E1-4069-9FFC-FA91102402A2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>610787400.37138903</real>
+			<key>timeStoppedRecording</key>
+			<real>610787400.42106199</real>
+			<key>title</key>
+			<string>Build PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>C9CF9D7A-76E1-4069-9FFC-FA91102402A2</string>
+		</dict>
+		<key>DE11C3C0-D2D0-4F10-8F5A-025F3882EB4E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DE11C3C0-D2D0-4F10-8F5A-025F3882EB4E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>610787721.33875597</real>
+			<key>timeStoppedRecording</key>
+			<real>610787745.30463099</real>
+			<key>title</key>
+			<string>Build PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>DE11C3C0-D2D0-4F10-8F5A-025F3882EB4E</string>
+		</dict>
+		<key>E8ACF5FE-5BF4-4F4C-9715-778FF288AC62</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E8ACF5FE-5BF4-4F4C-9715-778FF288AC62.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>610787718.95469606</real>
+			<key>timeStoppedRecording</key>
+			<real>610787719.191221</real>
+			<key>title</key>
+			<string>Clean PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>E8ACF5FE-5BF4-4F4C-9715-778FF288AC62</string>
+		</dict>
+		<key>EBCA13C6-A83E-4B4A-87E5-6D29E126F508</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EBCA13C6-A83E-4B4A-87E5-6D29E126F508.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>610787398.68801105</real>
+			<key>timeStoppedRecording</key>
+			<real>610787398.77639902</real>
+			<key>title</key>
+			<string>Build PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>EBCA13C6-A83E-4B4A-87E5-6D29E126F508</string>
+		</dict>
+		<key>F26A941F-DD9A-4CCB-901A-0D5B5A3BB06C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F26A941F-DD9A-4CCB-901A-0D5B5A3BB06C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>610787757.22925603</real>
+			<key>timeStoppedRecording</key>
+			<real>610787757.31909895</real>
+			<key>title</key>
+			<string>Build PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>F26A941F-DD9A-4CCB-901A-0D5B5A3BB06C</string>
+		</dict>
+		<key>F5695A0F-D276-4F33-85C5-6F61C6AB59D6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F5695A0F-D276-4F33-85C5-6F61C6AB59D6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>610787401.03577399</real>
+			<key>timeStoppedRecording</key>
+			<real>610787401.08517301</real>
+			<key>title</key>
+			<string>Build PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>F5695A0F-D276-4F33-85C5-6F61C6AB59D6</string>
+		</dict>
+		<key>FEC1862F-3347-44BA-B1A4-BCF1645E536F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FEC1862F-3347-44BA-B1A4-BCF1645E536F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>610787401.85817206</real>
+			<key>timeStoppedRecording</key>
+			<real>610787401.90743005</real>
+			<key>title</key>
+			<string>Build PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>FEC1862F-3347-44BA-B1A4-BCF1645E536F</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

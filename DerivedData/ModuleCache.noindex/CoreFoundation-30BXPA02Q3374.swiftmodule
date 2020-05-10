@@ -1,0 +1,20 @@
+---
+path:            '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreFoundation.swiftmodule/i386.swiftmodule'
+dependencies:    
+  - mtime:           1576465215000000000
+    path:            '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreFoundation.swiftmodule/i386.swiftmodule'
+    size:            12968
+  - mtime:           1570634136000000000
+    path:            '/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator6.1.sdk/usr/lib/swift/Swift.swiftmodule/i386.swiftinterface'
+    size:            1463750
+  - mtime:           1564201434000000000
+    path:            '/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator6.1.sdk/usr/include/Darwin.apinotes'
+    size:            1133
+  - mtime:           1566013906000000000
+    path:            '/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator6.1.sdk/usr/include/objc/ObjectiveC.apinotes'
+    size:            11147
+  - mtime:           1570642274000000000
+    path:            '/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator6.1.sdk/usr/lib/swift/CoreFoundation.swiftmodule/i386.swiftinterface'
+    size:            665
+version:         1
+...
