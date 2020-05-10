@@ -100,7 +100,7 @@ class MainMenuViewController: UIViewController {
     
     
     @IBSegueAction func showSwiftUIView(_ coder: NSCoder) -> UIViewController? {
-        return UIHostingController(coder: coder, rootView: SwiftUIView(text: ""))
+        return UIHostingController(coder: coder, rootView: SwiftUIView())
     }
     
 }

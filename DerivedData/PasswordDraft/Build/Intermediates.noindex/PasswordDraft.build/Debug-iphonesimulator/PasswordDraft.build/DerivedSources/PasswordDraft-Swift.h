@@ -226,7 +226,7 @@ SWIFT_CLASS("_TtC13PasswordDraft12CustomButton")
 @class NSBundle;
 
 SWIFT_CLASS("_TtC13PasswordDraft27ListPasswordsViewController")
-@interface ListPasswordsViewController : UIViewController
+@interface ListPasswordsViewController : UIViewController <UITableViewDelegate>
 - (void)viewDidLoad;
 - (void)dismissKeyboard;
 - (IBAction)listPasswords:(id _Nonnull)sender;

@@ -336,7 +336,8 @@ depends-member:
 - !private ["s10SetAlgebraP", "userDomainMask"]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
-- ["13PasswordDraft11SwiftUIViewV", "init"]
+- !private ["13PasswordDraft11SwiftUIViewV", "deinit"]
+- !private ["13PasswordDraft11SwiftUIViewV", "init"]
 - ["6SQLite5TableV", "init"]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
@@ -400,7 +401,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "sqlite3_prepare_v2"]
 - !private ["So18UIFocusEnvironmentP", "sqlite3_step"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
-- ["7SwiftUI19UIHostingControllerC", "init"]
+- !private ["7SwiftUI19UIHostingControllerC", "init"]
 - ["So30UIPasteConfigurationSupportingP", "Expression"]
 - !private ["So30UIPasteConfigurationSupportingP", "FileManager"]
 - !private ["So30UIPasteConfigurationSupportingP", "SQLITE_DONE"]
@@ -476,6 +477,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "sqlite3_prepare_v2"]
 - !private ["So30UIResponderStandardEditActionsP", "sqlite3_step"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So20UIScrollViewDelegateP", "globalDatabase"]
 - ["So16UIStateRestoringP", "Expression"]
 - !private ["So16UIStateRestoringP", "FileManager"]
 - !private ["So16UIStateRestoringP", "SQLITE_DONE"]
@@ -497,6 +499,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "sqlite3_step"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - !private ["So17UIStoryboardSegueC", "destination"]
+- !private ["So19UITableViewDelegateP", "globalDatabase"]
 - ["So18UITraitEnvironmentP", "Expression"]
 - !private ["So18UITraitEnvironmentP", "FileManager"]
 - !private ["So18UITraitEnvironmentP", "SQLITE_DONE"]
@@ -663,18 +666,20 @@ depends-nominal:
 - !private "So22NSSearchPathDomainMaskV"
 - !private "s10SetAlgebraP"
 - !private "s27StringInterpolationProtocolP"
-- "13PasswordDraft11SwiftUIViewV"
+- !private "13PasswordDraft11SwiftUIViewV"
 - "6SQLite5TableV"
 - !private "s16TextOutputStreamP"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
 - "So18UIFocusEnvironmentP"
-- "7SwiftUI19UIHostingControllerC"
+- !private "7SwiftUI19UIHostingControllerC"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
 - "So16UIStateRestoringP"
 - !private "So17UIStoryboardSegueC"
+- !private "So19UITableViewDelegateP"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
 - "So16UIViewControllerC"

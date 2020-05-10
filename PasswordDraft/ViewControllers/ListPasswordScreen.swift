@@ -12,15 +12,65 @@ import SQLite
 import SQLite3
 import SwiftUI
 
+// use this video to complete the setup of this table: https://www.youtube.com/watch?v=FtO5QT2D_H8
 
-class ListPasswordsViewController: UIViewController {
+
+
+class ListPasswordsViewController: UIViewController, UITableViewDelegate {
+    
+    // Initial database setup
+    var globalDatabase: OpaquePointer?
+    var passwordArray = Array<passwordRows>()
+    var passwordList = Array<passwordRows>()
+    var myTableView: UITableView  =   UITableView()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        
+        if globalDatabase == nil {
+            print("no connection to database")
+        } else {
+            print("connection successful")
+        }
+
+        safeArea = view.layoutMarginsGuide
+        setupTableView()
+        passwordList = retrievePasswords(queryStatementString: "SELECT * FROM passwordsTable", passwordRow: passwordArray)
+    }
+    
+    // how many rows do we want to display?
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return passwordList.count
+    }
+    
+    //
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        cell.textLabel?.text = passwordList[indexPath.row].login
+        return cell
+    }
+
+    
     
     //==============================================//
     //             Presentation: UIView             //
     //==============================================//
     
-
+    let tableView = UITableView()
+    var safeArea: UILayoutGuide!
     
+    func setupTableView() {
+        view.addSubview(tableView)
+        tableView.translatesAutoresizingMaskIntoConstraints = false
+        tableView.topAnchor.constraint(equalTo: safeArea.topAnchor).isActive = true
+        tableView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+        tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        tableView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
+        
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+
+    }
     
     
     
@@ -32,32 +82,7 @@ class ListPasswordsViewController: UIViewController {
     //==============================================//
     //                 Functionality                //
     //==============================================//
-    
-    // this struct not being used at the moment
-    struct passwordRows {
-        var id:Int32 = 0
-        var company:String = ""
-        var login:String = ""
-        var password:String = ""
-        var directory:String = ""
-        var within:String = ""
-    }
-    
-    var globalDatabase: OpaquePointer?
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-        if globalDatabase == nil {
-            print("no connection to database")
-        } else {
-            print("connection successful")
-        }
-    }
-    
-    
+       
     @objc func dismissKeyboard() {
         //Causes the view (or one of its embedded text fields) to resign the first responder status.
         view.endEditing(true)
@@ -93,31 +118,16 @@ class ListPasswordsViewController: UIViewController {
                     return passwordRow
                 }
                 
-                guard let queryResultCol4 = sqlite3_column_text(queryStatement, 4) else {
-                    print("Directory result is nil")
-                    return passwordRow
-                }
-                
-                guard let queryResultCol5 = sqlite3_column_text(queryStatement, 5) else {
-                    print("Within result is nil")
-                    return passwordRow
-                }
-                
                 let name = String(cString: queryResultCol1)
                 let login = String(cString: queryResultCol2)
                 let password = String(cString: queryResultCol3)
-                let directory = String(cString: queryResultCol4)
-                let within = String(cString: queryResultCol5)
             
                 currentPasswordRow.id = id
                 currentPasswordRow.company = name
                 currentPasswordRow.login = login
                 currentPasswordRow.password = password
-                currentPasswordRow.directory = directory
-                currentPasswordRow.within = within
                 
                 passwordRow.append(currentPasswordRow)
-                
             }
         } else {
             let errorMessage = String(cString: sqlite3_errmsg(globalDatabase))
@@ -135,7 +145,7 @@ class ListPasswordsViewController: UIViewController {
         passwordArray = retrievePasswords(queryStatementString: "SELECT * FROM passwordsTable", passwordRow: passwordArray)
         
         for password in passwordArray {
-            print("company: \(password.company) | login: \(password.login) | password: \(password.password) | dir: \(password.directory) | within: \(password.within)")
+            print("company: \(password.company) | login: \(password.login) | password: \(password.password) ")
         }
         
         print("Password Array count is: \(passwordArray.count)")
@@ -144,5 +154,4 @@ class ListPasswordsViewController: UIViewController {
         view.addSubview(newButton)
         newButton.setTitle("Button", for: .normal)
     }
-
 }

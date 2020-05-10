@@ -4,11 +4,16 @@
 import SwiftUI
 
 struct SwiftUIView: View {
-    
-}
-
-struct SwiftUIView_Previews: PreviewProvider {
-    static var previews: some View {
-        SwiftUIView(text: "Sample Text")
+    var body : some View
+    {
+        Text("Hello, world!")
     }
 }
+
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        SwiftUIView()
+    }
+}
+

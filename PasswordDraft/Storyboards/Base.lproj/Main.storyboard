@@ -384,7 +384,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="101" height="30"/>
                                         <state key="normal" title="Password List"/>
                                         <connections>
-                                            <segue destination="IJ8-ET-cdh" kind="show" destinationCreationSelector="showSwiftUIView:" id="gVK-pd-shN"/>
+                                            <segue destination="Jjl-Vh-bwG" kind="show" id="NZy-Ro-yKU"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpa-X3-bHv">

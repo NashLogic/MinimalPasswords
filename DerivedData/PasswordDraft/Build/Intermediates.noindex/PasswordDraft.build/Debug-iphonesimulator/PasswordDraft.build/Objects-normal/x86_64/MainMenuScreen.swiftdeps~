@@ -477,6 +477,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "sqlite3_prepare_v2"]
 - !private ["So30UIResponderStandardEditActionsP", "sqlite3_step"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So20UIScrollViewDelegateP", "globalDatabase"]
 - ["So16UIStateRestoringP", "Expression"]
 - !private ["So16UIStateRestoringP", "FileManager"]
 - !private ["So16UIStateRestoringP", "SQLITE_DONE"]
@@ -498,6 +499,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "sqlite3_step"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - !private ["So17UIStoryboardSegueC", "destination"]
+- !private ["So19UITableViewDelegateP", "globalDatabase"]
 - ["So18UITraitEnvironmentP", "Expression"]
 - !private ["So18UITraitEnvironmentP", "FileManager"]
 - !private ["So18UITraitEnvironmentP", "SQLITE_DONE"]
@@ -674,8 +676,10 @@ depends-nominal:
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
 - "So16UIStateRestoringP"
 - !private "So17UIStoryboardSegueC"
+- !private "So19UITableViewDelegateP"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
 - "So16UIViewControllerC"
