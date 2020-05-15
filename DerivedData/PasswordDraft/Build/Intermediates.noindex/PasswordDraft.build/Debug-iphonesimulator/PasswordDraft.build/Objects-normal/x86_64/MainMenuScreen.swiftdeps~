@@ -499,6 +499,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "sqlite3_step"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - !private ["So17UIStoryboardSegueC", "destination"]
+- !private ["So21UITableViewDataSourceP", "globalDatabase"]
 - !private ["So19UITableViewDelegateP", "globalDatabase"]
 - ["So18UITraitEnvironmentP", "Expression"]
 - !private ["So18UITraitEnvironmentP", "FileManager"]
@@ -679,6 +680,7 @@ depends-nominal:
 - !private "So20UIScrollViewDelegateP"
 - "So16UIStateRestoringP"
 - !private "So17UIStoryboardSegueC"
+- !private "So21UITableViewDataSourceP"
 - !private "So19UITableViewDelegateP"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"

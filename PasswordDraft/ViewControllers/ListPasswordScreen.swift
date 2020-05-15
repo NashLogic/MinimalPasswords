@@ -16,7 +16,9 @@ import SwiftUI
 
 
 
-class ListPasswordsViewController: UIViewController, UITableViewDelegate {
+class ListPasswordsViewController: UIViewController {
+    
+    @IBOutlet weak var tableView: UITableView!
     
     // Initial database setup
     var globalDatabase: OpaquePointer?
@@ -37,19 +39,12 @@ class ListPasswordsViewController: UIViewController, UITableViewDelegate {
         safeArea = view.layoutMarginsGuide
         setupTableView()
         passwordList = retrievePasswords(queryStatementString: "SELECT * FROM passwordsTable", passwordRow: passwordArray)
+        
+        tableView.delegate = self
+        tableView.dataSource = self
     }
     
-    // how many rows do we want to display?
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return passwordList.count
-    }
     
-    //
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = passwordList[indexPath.row].login
-        return cell
-    }
 
     
     
@@ -57,7 +52,6 @@ class ListPasswordsViewController: UIViewController, UITableViewDelegate {
     //             Presentation: UIView             //
     //==============================================//
     
-    let tableView = UITableView()
     var safeArea: UILayoutGuide!
     
     func setupTableView() {
@@ -153,5 +147,21 @@ class ListPasswordsViewController: UIViewController, UITableViewDelegate {
         let newButton = CustomButton()
         view.addSubview(newButton)
         newButton.setTitle("Button", for: .normal)
+    }
+
+    
+}
+
+extension ListPasswordsViewController: UITableViewDataSource, UITableViewDelegate {
+    // how many rows do we want to display?
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return passwordList.count
+    }
+    
+    // this is each individual cell
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let passwordCell = tableView.dequeueReusableCell(withIdentifier: "passwordCell", for: indexPath)
+        passwordCell.textLabel?.text = passwordList[indexPath.row].login
+        return passwordCell
     }
 }
