@@ -262,7 +262,6 @@ SWIFT_CLASS("_TtC13PasswordDraft22MainMenuViewController")
 @interface MainMenuViewController : UIViewController
 - (void)viewDidLoad;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
-- (IBSegueAction UIViewController * _Nullable)showSwiftUIView:(NSCoder * _Nonnull)coder SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

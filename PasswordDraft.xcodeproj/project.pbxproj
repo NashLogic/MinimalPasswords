@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5603A87024689A3700F52614 /* PasswordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5603A86F24689A3700F52614 /* PasswordRow.swift */; };
-		560FB9012468224E0095EF42 /* ListPasswordScreenSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560FB9002468224E0095EF42 /* ListPasswordScreenSwiftUI.swift */; };
 		5632AF9323F02174009B7A5E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5632AF9223F02174009B7A5E /* CustomButton.swift */; };
 		569CF27523D7C28900D9EF6C /* MainMenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569CF27423D7C28900D9EF6C /* MainMenuScreen.swift */; };
 		56B9823F23D9A974009E6F90 /* ListPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B9823E23D9A974009E6F90 /* ListPasswordScreen.swift */; };
@@ -26,7 +25,6 @@
 
 /* Begin PBXFileReference section */
 		5603A86F24689A3700F52614 /* PasswordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRow.swift; sourceTree = "<group>"; };
-		560FB9002468224E0095EF42 /* ListPasswordScreenSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPasswordScreenSwiftUI.swift; sourceTree = "<group>"; };
 		5632AF9223F02174009B7A5E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		5649932A2467CF76002421A5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		569CF27423D7C28900D9EF6C /* MainMenuScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScreen.swift; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 		56C3A0BB2467FDE600D79039 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				560FB9002468224E0095EF42 /* ListPasswordScreenSwiftUI.swift */,
 				56D4179423D3BF0D00541526 /* LoginScreen.swift */,
 				569CF27423D7C28900D9EF6C /* MainMenuScreen.swift */,
 				56B9823E23D9A974009E6F90 /* ListPasswordScreen.swift */,
@@ -254,7 +251,6 @@
 				56BDBE5D246EABD200045EB0 /* PasswordCell.swift in Sources */,
 				569CF27523D7C28900D9EF6C /* MainMenuScreen.swift in Sources */,
 				56B9823F23D9A974009E6F90 /* ListPasswordScreen.swift in Sources */,
-				560FB9012468224E0095EF42 /* ListPasswordScreenSwiftUI.swift in Sources */,
 				56D4179523D3BF0D00541526 /* LoginScreen.swift in Sources */,
 				5632AF9323F02174009B7A5E /* CustomButton.swift in Sources */,
 				56CB9A7023AB4D4A000829DD /* GeneratePasswordScreen.swift in Sources */,

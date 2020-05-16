@@ -6,35 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>30D777E3-86B3-4F52-AB84-D9E27D494CEF</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>30D777E3-86B3-4F52-AB84-D9E27D494CEF.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>PasswordDraft-eslputrzjxqptlfyofmcdzdtciej</string>
-			<key>timeStartedRecording</key>
-			<real>611234686.25563598</real>
-			<key>timeStoppedRecording</key>
-			<real>611234687.51129901</real>
-			<key>title</key>
-			<string>Build target PasswordDraft</string>
-			<key>uniqueIdentifier</key>
-			<string>30D777E3-86B3-4F52-AB84-D9E27D494CEF</string>
-		</dict>
-		<key>55E8F5B7-DD73-46CC-BD97-092C85DC9C48</key>
+		<key>A5D1066F-18B0-42E9-ABB5-AB275EA653F1</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
 			<key>fileName</key>
-			<string>55E8F5B7-DD73-46CC-BD97-092C85DC9C48.xcactivitylog</string>
+			<string>A5D1066F-18B0-42E9-ABB5-AB275EA653F1.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,15 +26,43 @@
 			<key>signature</key>
 			<string>SQLite.swift-drfddiiwqaspupfjkruilktpnagg</string>
 			<key>timeStartedRecording</key>
-			<real>611234385.23795497</real>
+			<real>611326886.73359704</real>
 			<key>timeStoppedRecording</key>
-			<real>611234404.40113103</real>
+			<real>611326897.39705205</real>
 			<key>title</key>
 			<string>Build target SQLite.swift</string>
 			<key>uniqueIdentifier</key>
-			<string>55E8F5B7-DD73-46CC-BD97-092C85DC9C48</string>
+			<string>A5D1066F-18B0-42E9-ABB5-AB275EA653F1</string>
 		</dict>
-		<key>FCD300E4-6C85-4431-8A15-AD6F1B5D1822</key>
+		<key>AD6CCC63-59E3-4074-9F60-097C69778517</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>AD6CCC63-59E3-4074-9F60-097C69778517.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>PasswordDraft-eslputrzjxqptlfyofmcdzdtciej</string>
+			<key>timeStartedRecording</key>
+			<real>611327196.956671</real>
+			<key>timeStoppedRecording</key>
+			<real>611327201.91967297</real>
+			<key>title</key>
+			<string>Build target PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>AD6CCC63-59E3-4074-9F60-097C69778517</string>
+		</dict>
+		<key>C7D79E44-CD42-48DB-B8A8-27752AA097FF</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -71,7 +71,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
 			<key>fileName</key>
-			<string>FCD300E4-6C85-4431-8A15-AD6F1B5D1822.xcactivitylog</string>
+			<string>C7D79E44-CD42-48DB-B8A8-27752AA097FF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,13 +82,13 @@
 			<key>signature</key>
 			<string>Pods-PasswordDraft-drfddiiwqaspupfjkruilktpnagg</string>
 			<key>timeStartedRecording</key>
-			<real>611234404.40261495</real>
+			<real>611326897.39814794</real>
 			<key>timeStoppedRecording</key>
-			<real>611234405.97671998</real>
+			<real>611326898.96988904</real>
 			<key>title</key>
 			<string>Build target Pods-PasswordDraft</string>
 			<key>uniqueIdentifier</key>
-			<string>FCD300E4-6C85-4431-8A15-AD6F1B5D1822</string>
+			<string>C7D79E44-CD42-48DB-B8A8-27752AA097FF</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

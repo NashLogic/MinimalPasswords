@@ -2,13 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>SQLite</string>
-	<string>SQLite3</string>
-	<string>SwiftUI</string>
-	<string>SQLCipher</string>
 	<string>Dispatch</string>
-	<string>sqlite3</string>
+	<string>SQLite3</string>
+	<string>SQLCipher</string>
+	<string>SQLite</string>
 	<string>SQLiteObjc</string>
+	<string>sqlite3</string>
+	<string>SwiftUI</string>
 	<string>CSQLite</string>
 	<string>UIKit</string>
 	<string>Foundation</string>

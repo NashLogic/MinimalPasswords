@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>1A924DA7-ABB6-4DD9-90EF-4AC3FFDBD6A8</key>
+		<key>5F48F1C6-D0C8-4575-A062-40AEADD15F47</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1A924DA7-ABB6-4DD9-90EF-4AC3FFDBD6A8.xcactivitylog</string>
+			<string>5F48F1C6-D0C8-4575-A062-40AEADD15F47.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Debug PasswordDraft</string>
 			<key>timeStartedRecording</key>
-			<real>611234594.00290096</real>
+			<real>611327147.93129098</real>
 			<key>timeStoppedRecording</key>
-			<real>611234638.57151198</real>
+			<real>611327196.89787698</real>
 			<key>title</key>
 			<string>Debug PasswordDraft</string>
 			<key>uniqueIdentifier</key>
-			<string>1A924DA7-ABB6-4DD9-90EF-4AC3FFDBD6A8</string>
+			<string>5F48F1C6-D0C8-4575-A062-40AEADD15F47</string>
 		</dict>
-		<key>34306414-6595-4306-B30B-3F417A395333</key>
+		<key>8509D5A9-54B5-40B2-BE09-E84B89CAA8DD</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>34306414-6595-4306-B30B-3F417A395333.xcactivitylog</string>
+			<string>8509D5A9-54B5-40B2-BE09-E84B89CAA8DD.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Debug PasswordDraft</string>
 			<key>timeStartedRecording</key>
-			<real>611234433.60758197</real>
+			<real>611326916.47570002</real>
 			<key>timeStoppedRecording</key>
-			<real>611234588.95358503</real>
+			<real>611327147.62105894</real>
 			<key>title</key>
 			<string>Debug PasswordDraft</string>
 			<key>uniqueIdentifier</key>
-			<string>34306414-6595-4306-B30B-3F417A395333</string>
+			<string>8509D5A9-54B5-40B2-BE09-E84B89CAA8DD</string>
 		</dict>
-		<key>6B13300A-9B94-48EE-8B4C-76F316D8D7DD</key>
+		<key>A3E07051-ED70-4473-AA9B-258661EDBC25</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>6B13300A-9B94-48EE-8B4C-76F316D8D7DD.xcactivitylog</string>
+			<string>A3E07051-ED70-4473-AA9B-258661EDBC25.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +100,15 @@
 			<key>signature</key>
 			<string>Debug PasswordDraft</string>
 			<key>timeStartedRecording</key>
-			<real>610840780.25143695</real>
+			<real>611327201.94099796</real>
 			<key>timeStoppedRecording</key>
-			<real>610841038.22073305</real>
+			<real>611327349.19796503</real>
 			<key>title</key>
 			<string>Debug PasswordDraft</string>
 			<key>uniqueIdentifier</key>
-			<string>6B13300A-9B94-48EE-8B4C-76F316D8D7DD</string>
+			<string>A3E07051-ED70-4473-AA9B-258661EDBC25</string>
 		</dict>
-		<key>C07EB2BF-94CD-4DC7-9994-B2BFC20DE996</key>
+		<key>CDD59E32-2604-4BE6-9841-EAC62497FE8E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -117,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>C07EB2BF-94CD-4DC7-9994-B2BFC20DE996.xcactivitylog</string>
+			<string>CDD59E32-2604-4BE6-9841-EAC62497FE8E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +134,15 @@
 			<key>signature</key>
 			<string>Debug PasswordDraft</string>
 			<key>timeStartedRecording</key>
-			<real>611234020.30525899</real>
+			<real>611326289.42291403</real>
 			<key>timeStoppedRecording</key>
-			<real>611234191.71615303</real>
+			<real>611326739.40179896</real>
 			<key>title</key>
 			<string>Debug PasswordDraft</string>
 			<key>uniqueIdentifier</key>
-			<string>C07EB2BF-94CD-4DC7-9994-B2BFC20DE996</string>
+			<string>CDD59E32-2604-4BE6-9841-EAC62497FE8E</string>
 		</dict>
-		<key>CB7F2220-37FC-43BA-B8F4-91B83514758A</key>
+		<key>FE491A8F-235C-40AF-ABF5-6F53ED80F784</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -151,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>CB7F2220-37FC-43BA-B8F4-91B83514758A.xcactivitylog</string>
+			<string>FE491A8F-235C-40AF-ABF5-6F53ED80F784.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,13 +168,13 @@
 			<key>signature</key>
 			<string>Debug PasswordDraft</string>
 			<key>timeStartedRecording</key>
-			<real>611234640.77646804</real>
+			<real>611325938.264117</real>
 			<key>timeStoppedRecording</key>
-			<real>611234686.13693404</real>
+			<real>611325950.795717</real>
 			<key>title</key>
 			<string>Debug PasswordDraft</string>
 			<key>uniqueIdentifier</key>
-			<string>CB7F2220-37FC-43BA-B8F4-91B83514758A</string>
+			<string>FE491A8F-235C-40AF-ABF5-6F53ED80F784</string>
 		</dict>
 	</dict>
 </dict>

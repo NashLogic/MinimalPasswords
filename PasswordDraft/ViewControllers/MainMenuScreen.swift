@@ -83,7 +83,7 @@ class MainMenuViewController: UIViewController {
         
         let database = openDatabase()
         globalDatabase = database
-//        dropTable()
+        dropTable()
         createTable()
     }
     
