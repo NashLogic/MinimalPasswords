@@ -1,5 +1,5 @@
 # MinimalPasswords
- An iOS app designed to produce safe passwords with a minimal UI
+ An iOS app designed to produce safe passwords with a minimal UI.
  
  This project uses Swift, Objective-C, and SQLite. It also incorporates CocoaPods.
 
