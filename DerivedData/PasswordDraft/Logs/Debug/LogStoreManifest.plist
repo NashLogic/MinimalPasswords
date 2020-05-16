@@ -74,6 +74,40 @@
 			<key>uniqueIdentifier</key>
 			<string>8509D5A9-54B5-40B2-BE09-E84B89CAA8DD</string>
 		</dict>
+		<key>9CD4C386-4E50-47C8-83A5-9101BEA919BD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9CD4C386-4E50-47C8-83A5-9101BEA919BD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PasswordDraft project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PasswordDraft</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug PasswordDraft</string>
+			<key>timeStartedRecording</key>
+			<real>611327349.35820997</real>
+			<key>timeStoppedRecording</key>
+			<real>611328224.06762803</real>
+			<key>title</key>
+			<string>Debug PasswordDraft</string>
+			<key>uniqueIdentifier</key>
+			<string>9CD4C386-4E50-47C8-83A5-9101BEA919BD</string>
+		</dict>
 		<key>A3E07051-ED70-4473-AA9B-258661EDBC25</key>
 		<dict>
 			<key>className</key>
