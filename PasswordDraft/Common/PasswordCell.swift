@@ -15,4 +15,11 @@ class PasswordCell: UITableViewCell {
     @IBOutlet weak var LoginLabel: UILabel!
     
     @IBOutlet weak var PasswordLabel: UILabel!
+    
+    func setPassword(passwordRow: passwordRows) {
+        CompanyNameLabel.text = passwordRow.company
+        LoginLabel.text = passwordRow.login
+        PasswordLabel.text = passwordRow.password
+    }
+    
 }

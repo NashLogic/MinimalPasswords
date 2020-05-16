@@ -84,7 +84,7 @@ class MainMenuViewController: UIViewController {
         
         let database = openDatabase()
         globalDatabase = database
-//        dropTable()
+        dropTable()
         createTable()
     }
     
@@ -95,12 +95,6 @@ class MainMenuViewController: UIViewController {
         } else if let destination2VC = segue.destination as? ViewController {
             destination2VC.globalDatabase = globalDatabase
         }
-    }
-    
-    
-    
-    @IBSegueAction func showSwiftUIView(_ coder: NSCoder) -> UIViewController? {
-        return UIHostingController(coder: coder, rootView: SwiftUIView())
     }
     
 }

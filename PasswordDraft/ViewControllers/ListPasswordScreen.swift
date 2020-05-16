@@ -12,9 +12,6 @@ import SQLite
 import SQLite3
 import SwiftUI
 
-// use this video to complete the setup of this table: https://www.youtube.com/watch?v=FtO5QT2D_H8
-
-
 
 class ListPasswordsViewController: UIViewController {
     
@@ -35,7 +32,9 @@ class ListPasswordsViewController: UIViewController {
         } else {
             print("connection successful")
         }
-
+        
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "passwordCell")
+        
         safeArea = view.layoutMarginsGuide
         setupTableView()
         passwordList = retrievePasswords(queryStatementString: "SELECT * FROM passwordsTable", passwordRow: passwordArray)
@@ -61,16 +60,7 @@ class ListPasswordsViewController: UIViewController {
         tableView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
         tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         tableView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
-        
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
-
     }
-    
-    
-    
-    
-    
-    
     
     
     //==============================================//
@@ -160,8 +150,12 @@ extension ListPasswordsViewController: UITableViewDataSource, UITableViewDelegat
     
     // this is each individual cell
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let passwordCell = tableView.dequeueReusableCell(withIdentifier: "passwordCell", for: indexPath)
-        passwordCell.textLabel?.text = passwordList[indexPath.row].login
+        let individualCell = passwordList[indexPath.row]
+
+        let passwordCell = tableView.dequeueReusableCell(withIdentifier: "PasswordCell", for: indexPath) as! PasswordCell
+        
+        passwordCell.setPassword(passwordRow: individualCell)
+        
         return passwordCell
     }
 }

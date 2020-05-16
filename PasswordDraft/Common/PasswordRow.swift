@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct passwordRows {
+class passwordRows {
     var id:Int32 = 0
     var company:String = ""
     var login:String = ""
@@ -16,6 +16,12 @@ struct passwordRows {
     var directory:String = ""
     var within:String = ""
     
-    
-    
+    init(id: Int32, company: String, login: String, password: String, directory: String, within: String) {
+        self.id = id
+        self.company = company
+        self.login = login
+        self.password = password
+        self.directory = directory
+        self.within = within
+    }
 }
