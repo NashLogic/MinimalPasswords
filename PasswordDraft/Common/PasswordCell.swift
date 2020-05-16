@@ -11,9 +11,7 @@ import UIKit
 class PasswordCell: UITableViewCell {
 
     @IBOutlet weak var CompanyNameLabel: UILabel!
-    
     @IBOutlet weak var LoginLabel: UILabel!
-    
     @IBOutlet weak var PasswordLabel: UILabel!
     
     func setPassword(passwordRow: passwordRows) {
