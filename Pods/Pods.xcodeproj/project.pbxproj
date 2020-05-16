@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		1FFB28D21A0D19841A5B802D25D5CBA9 /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B283F11921AE5084D7DD4A2686D15B17 /* SQLite.swift-dummy.m */; };
 		2AD3C6DE9778DB2972EEB9C40191D4A1 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85BB8D3304E7EAF06E3A85DC44094D8 /* CustomFunctions.swift */; };
 		31AF5AEBD5B1E7D9BA13C33DA9CAC6EF /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096FF25977F76F37D4DE69F855F3618E /* Helpers.swift */; };
+		350D3563AEAF6A3F394F9DE54A67691C /* Pods-MinimalPasswords-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4258B9C2660F903C3F219BD2D1EFF520 /* Pods-MinimalPasswords-dummy.m */; };
 		38D38A1A8FF5F6D69E0B0392A81349AA /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3711AB0A999131C8BD46538E947E7780 /* Setter.swift */; };
 		391512EAF0E5324171CDABDDE341960B /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D93D0C244348A9C90000FEB7C118A5 /* Connection.swift */; };
 		3E24F37289624C75C60EE7102102EF70 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6021B513535355B80F5DAA95C95E9406 /* Errors.swift */; };
@@ -29,17 +30,16 @@
 		9E627DD9FB0352876EEDECC2A163F785 /* SQLiteObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = C38D49AE982F458CCB5B88C854C9E802 /* SQLiteObjc.m */; };
 		B416A8E299446B94EE80482777E444EB /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B58CBA404993AD749353E4324FACF8 /* DateAndTimeFunctions.swift */; };
 		B69EA6264044412D6729801B01D713C7 /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76E49F4D572909BAAEA1F672D4CF1D6 /* FTS4.swift */; };
+		B7BB29C513259E1362224CBCB6AAA5E3 /* Pods-MinimalPasswords-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 042BCEC9C20D501BC6A06F2BD5179FDF /* Pods-MinimalPasswords-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BFF536B78DC4850A4A285C1D03F56057 /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EEB7895E9FE9CC73D60D6E11382353 /* SQLite.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C111B6E889CBE822F5C9650DAF3CF74F /* Pods-PasswordDraft-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DC5627AE1A8BE1166CC681920A57AF /* Pods-PasswordDraft-dummy.m */; };
 		CB0E7E0835E7E26C8558DC0EDDE0E57D /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD54FEF025C1FA5691488527B9B931E /* CoreFunctions.swift */; };
 		CF028D4146B0DD677C3393340AD6448A /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388211A9F016FC1E5CEC41C93ADBBAB4 /* RTree.swift */; };
 		D8F6B32F6E761A560319B19086DD3C29 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E00874B4E700887680AB332E57C093 /* Coding.swift */; };
 		DB5891014AF5583F4CE70D67063FEBF4 /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E22B8AF080D86C330B2E1663A9DADAB9 /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F22C4BB90DD7275304B73043D97F1995 /* Pods-PasswordDraft-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C6C3B849FD6207275B8543834253AC /* Pods-PasswordDraft-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A326CDBEEA9CFBCB5CF5B28336244BA7 /* PBXContainerItemProxy */ = {
+		0CC35A5F445DD00B6F707B374BF40290 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -49,29 +49,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042BCEC9C20D501BC6A06F2BD5179FDF /* Pods-MinimalPasswords-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MinimalPasswords-umbrella.h"; sourceTree = "<group>"; };
 		06E00874B4E700887680AB332E57C093 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
 		06F3EAD8B10E8156469A28130961AC2B /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
 		096FF25977F76F37D4DE69F855F3618E /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
 		1145BCE8EF8FECC6835D09BEE81D8B27 /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
 		118CE4A09F56D4A0F78360B2C1D9D3D5 /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
 		13762052A8E82DE0E49DD2B12405F7B4 /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
-		13C6C3B849FD6207275B8543834253AC /* Pods-PasswordDraft-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PasswordDraft-umbrella.h"; sourceTree = "<group>"; };
+		13B69BD53F667E094FD960315E7951B1 /* Pods-MinimalPasswords-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MinimalPasswords-acknowledgements.markdown"; sourceTree = "<group>"; };
+		15390C305AEF71E294616C6B0EA65C09 /* Pods-MinimalPasswords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MinimalPasswords.release.xcconfig"; sourceTree = "<group>"; };
 		1F1EFD56C4BDA26D68586BA493DB3560 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		20DA7D4375311F5EEBF7B4BF82424309 /* libPods-MinimalPasswords.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MinimalPasswords.a"; path = "libPods-MinimalPasswords.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B58CBA404993AD749353E4324FACF8 /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
 		27947974CB1CD9EF3FC4ACE7582DC4ED /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
-		3206E7B4690168DF3840307EC21BCD41 /* Pods-PasswordDraft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasswordDraft.release.xcconfig"; sourceTree = "<group>"; };
 		3711AB0A999131C8BD46538E947E7780 /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
-		37DC5627AE1A8BE1166CC681920A57AF /* Pods-PasswordDraft-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PasswordDraft-dummy.m"; sourceTree = "<group>"; };
 		388211A9F016FC1E5CEC41C93ADBBAB4 /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
 		3E5F36EE417F344885B6CEDEECB7F5F2 /* SQLiteObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLiteObjc.h; path = Sources/SQLiteObjc/include/SQLiteObjc.h; sourceTree = "<group>"; };
+		4258B9C2660F903C3F219BD2D1EFF520 /* Pods-MinimalPasswords-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MinimalPasswords-dummy.m"; sourceTree = "<group>"; };
 		43EEB7895E9FE9CC73D60D6E11382353 /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
-		4B88D884BF013DC88F5B772BCF934D63 /* Pods-PasswordDraft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasswordDraft.debug.xcconfig"; sourceTree = "<group>"; };
-		4EAB514D3D624A8CB305B436A5A89D62 /* Pods-PasswordDraft.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PasswordDraft.modulemap"; sourceTree = "<group>"; };
 		5087B8CD6E3F3619E84A687B7CA0C140 /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
+		5136A782BC663F0B9F415F4C89B021C3 /* Pods-MinimalPasswords-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MinimalPasswords-acknowledgements.plist"; sourceTree = "<group>"; };
 		6021B513535355B80F5DAA95C95E9406 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
 		6B7F56A1D481817153EF63E53CDA8AE2 /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
 		6BECF449A7505D33C87702B71A4BAF15 /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
-		72F69F6EB7A4421011172FDC1FB55B62 /* Pods-PasswordDraft-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasswordDraft-acknowledgements.plist"; sourceTree = "<group>"; };
 		756BD914162BC6648F002FBA778E750A /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
 		8002F7E4E908D2DDFF112B10D3C47D20 /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
 		80EE26CBD32EF6C1025EBE393BA460C5 /* SQLite.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.debug.xcconfig; sourceTree = "<group>"; };
@@ -80,10 +80,10 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A242A6534D17DAB1DC389A24129DBCEF /* SQLite.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.release.xcconfig; sourceTree = "<group>"; };
 		B283F11921AE5084D7DD4A2686D15B17 /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		B3F2B874D2712B0D1238B9EB32B7F874 /* Pods-MinimalPasswords.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MinimalPasswords.modulemap"; sourceTree = "<group>"; };
 		B85BB8D3304E7EAF06E3A85DC44094D8 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
-		B90770C3745236FFBC2E92545A6DFD0F /* libPods-PasswordDraft.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PasswordDraft.a"; path = "libPods-PasswordDraft.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0BF62A9341487BA10672A8B99D020CC /* Pods-PasswordDraft-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PasswordDraft-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C38D49AE982F458CCB5B88C854C9E802 /* SQLiteObjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQLiteObjc.m; path = Sources/SQLiteObjc/SQLiteObjc.m; sourceTree = "<group>"; };
+		CF61660F399A0977334A36B0E0053C3C /* Pods-MinimalPasswords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MinimalPasswords.debug.xcconfig"; sourceTree = "<group>"; };
 		D76E49F4D572909BAAEA1F672D4CF1D6 /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
 		DFD54FEF025C1FA5691488527B9B931E /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
 		E22B8AF080D86C330B2E1663A9DADAB9 /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
@@ -93,14 +93,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		83E6F56551D35482FE1861B7C021F61A /* Frameworks */ = {
+		2B17F07EDF0979535EBCEC189210EC13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA0AAB1D7DE50EE78B974E35463B7EC6 /* Frameworks */ = {
+		83E6F56551D35482FE1861B7C021F61A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -142,29 +142,6 @@
 			name = standard;
 			sourceTree = "<group>";
 		};
-		3B54CDCB06CD731217BF22953003CAD1 /* Pods-PasswordDraft */ = {
-			isa = PBXGroup;
-			children = (
-				4EAB514D3D624A8CB305B436A5A89D62 /* Pods-PasswordDraft.modulemap */,
-				C0BF62A9341487BA10672A8B99D020CC /* Pods-PasswordDraft-acknowledgements.markdown */,
-				72F69F6EB7A4421011172FDC1FB55B62 /* Pods-PasswordDraft-acknowledgements.plist */,
-				37DC5627AE1A8BE1166CC681920A57AF /* Pods-PasswordDraft-dummy.m */,
-				13C6C3B849FD6207275B8543834253AC /* Pods-PasswordDraft-umbrella.h */,
-				4B88D884BF013DC88F5B772BCF934D63 /* Pods-PasswordDraft.debug.xcconfig */,
-				3206E7B4690168DF3840307EC21BCD41 /* Pods-PasswordDraft.release.xcconfig */,
-			);
-			name = "Pods-PasswordDraft";
-			path = "Target Support Files/Pods-PasswordDraft";
-			sourceTree = "<group>";
-		};
-		42501C598129C96CA8B6661062523E35 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3B54CDCB06CD731217BF22953003CAD1 /* Pods-PasswordDraft */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		45F63F2906EBF84ADB011B67F867104C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,15 +164,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B3D8E674C95BF60964A38C64C52B63CA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B90770C3745236FFBC2E92545A6DFD0F /* libPods-PasswordDraft.a */,
-				F5FA45A44C42CC2CA3A324A3E914CE19 /* libSQLite.swift.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		C2D1FA394F2373A354EA383ECAECB35B /* SQLite.swift */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,14 +174,23 @@
 			path = SQLite.swift;
 			sourceTree = "<group>";
 		};
+		C6E4B0627BB74C1BA461F1EEEA427106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20DA7D4375311F5EEBF7B4BF82424309 /* libPods-MinimalPasswords.a */,
+				F5FA45A44C42CC2CA3A324A3E914CE19 /* libSQLite.swift.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				9C7F1875E201FDD0DED29CB3994FA086 /* Pods */,
-				B3D8E674C95BF60964A38C64C52B63CA /* Products */,
-				42501C598129C96CA8B6661062523E35 /* Targets Support Files */,
+				C6E4B0627BB74C1BA461F1EEEA427106 /* Products */,
+				D8B89D98BAF151C29C2B438390EC969F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -224,14 +201,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D8B89D98BAF151C29C2B438390EC969F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5C92C9328843EB78E0F56C402BB99EF /* Pods-MinimalPasswords */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E5C92C9328843EB78E0F56C402BB99EF /* Pods-MinimalPasswords */ = {
+			isa = PBXGroup;
+			children = (
+				B3F2B874D2712B0D1238B9EB32B7F874 /* Pods-MinimalPasswords.modulemap */,
+				13B69BD53F667E094FD960315E7951B1 /* Pods-MinimalPasswords-acknowledgements.markdown */,
+				5136A782BC663F0B9F415F4C89B021C3 /* Pods-MinimalPasswords-acknowledgements.plist */,
+				4258B9C2660F903C3F219BD2D1EFF520 /* Pods-MinimalPasswords-dummy.m */,
+				042BCEC9C20D501BC6A06F2BD5179FDF /* Pods-MinimalPasswords-umbrella.h */,
+				CF61660F399A0977334A36B0E0053C3C /* Pods-MinimalPasswords.debug.xcconfig */,
+				15390C305AEF71E294616C6B0EA65C09 /* Pods-MinimalPasswords.release.xcconfig */,
+			);
+			name = "Pods-MinimalPasswords";
+			path = "Target Support Files/Pods-MinimalPasswords";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		42CF0ED2BB4C638F54C9BD9C61A8D0D2 /* Headers */ = {
+		5263CA4822DB175E96C822E8933C8D7C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F22C4BB90DD7275304B73043D97F1995 /* Pods-PasswordDraft-umbrella.h in Headers */,
+				B7BB29C513259E1362224CBCB6AAA5E3 /* Pods-MinimalPasswords-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,24 +249,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D51ED5E7CF85165D09B3E9CF42B6328 /* Pods-PasswordDraft */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 02CCD5A20CDD05060FF87EBF35EEB4F2 /* Build configuration list for PBXNativeTarget "Pods-PasswordDraft" */;
-			buildPhases = (
-				42CF0ED2BB4C638F54C9BD9C61A8D0D2 /* Headers */,
-				EF73125C9AE7F9E6B7F40EE252773162 /* Sources */,
-				BA0AAB1D7DE50EE78B974E35463B7EC6 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AF412D68BED0E548BAF3E85914836D48 /* PBXTargetDependency */,
-			);
-			name = "Pods-PasswordDraft";
-			productName = "Pods-PasswordDraft";
-			productReference = B90770C3745236FFBC2E92545A6DFD0F /* libPods-PasswordDraft.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4831832D716DE9C50FF96385B6482F4A /* Build configuration list for PBXNativeTarget "SQLite.swift" */;
@@ -285,6 +267,24 @@
 			productReference = F5FA45A44C42CC2CA3A324A3E914CE19 /* libSQLite.swift.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		6C081DD6119CB864318A290E6CFA142C /* Pods-MinimalPasswords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A469683BF512F4D57C38809AFDBD3396 /* Build configuration list for PBXNativeTarget "Pods-MinimalPasswords" */;
+			buildPhases = (
+				5263CA4822DB175E96C822E8933C8D7C /* Headers */,
+				B80B2F201208E877A927CB4B9923655B /* Sources */,
+				2B17F07EDF0979535EBCEC189210EC13 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F06B5A815624BE95A95849AEDE68AAC /* PBXTargetDependency */,
+			);
+			name = "Pods-MinimalPasswords";
+			productName = "Pods-MinimalPasswords";
+			productReference = 20DA7D4375311F5EEBF7B4BF82424309 /* libPods-MinimalPasswords.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -295,7 +295,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 10.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -303,11 +303,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B3D8E674C95BF60964A38C64C52B63CA /* Products */;
+			productRefGroup = C6E4B0627BB74C1BA461F1EEEA427106 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D51ED5E7CF85165D09B3E9CF42B6328 /* Pods-PasswordDraft */,
+				6C081DD6119CB864318A290E6CFA142C /* Pods-MinimalPasswords */,
 				3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */,
 			);
 		};
@@ -371,50 +371,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF73125C9AE7F9E6B7F40EE252773162 /* Sources */ = {
+		B80B2F201208E877A927CB4B9923655B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C111B6E889CBE822F5C9650DAF3CF74F /* Pods-PasswordDraft-dummy.m in Sources */,
+				350D3563AEAF6A3F394F9DE54A67691C /* Pods-MinimalPasswords-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AF412D68BED0E548BAF3E85914836D48 /* PBXTargetDependency */ = {
+		2F06B5A815624BE95A95849AEDE68AAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SQLite.swift;
 			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
-			targetProxy = A326CDBEEA9CFBCB5CF5B28336244BA7 /* PBXContainerItemProxy */;
+			targetProxy = 0CC35A5F445DD00B6F707B374BF40290 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0768F79DD99AE56A6D0C0AE463DF8193 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3206E7B4690168DF3840307EC21BCD41 /* Pods-PasswordDraft.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PasswordDraft/Pods-PasswordDraft.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		07F39CDB8D7EF27A2DD154503E12871F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A242A6534D17DAB1DC389A24129DBCEF /* SQLite.swift.release.xcconfig */;
@@ -440,29 +416,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		17EEE6E2DDBB73FCF820029599A99264 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B88D884BF013DC88F5B772BCF934D63 /* Pods-PasswordDraft.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PasswordDraft/Pods-PasswordDraft.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -524,6 +477,30 @@
 			};
 			name = Release;
 		};
+		25802EAD9CDB71D9CAA8E5148A3EB1F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15390C305AEF71E294616C6B0EA65C09 /* Pods-MinimalPasswords.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MinimalPasswords/Pods-MinimalPasswords.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		3F1A394631A8AAFF07298944BD9B8135 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 80EE26CBD32EF6C1025EBE393BA460C5 /* SQLite.swift.debug.xcconfig */;
@@ -545,6 +522,29 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA9B8221E3B0AD941F9E5A4BF74D8BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF61660F399A0977334A36B0E0053C3C /* Pods-MinimalPasswords.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MinimalPasswords/Pods-MinimalPasswords.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -616,15 +616,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02CCD5A20CDD05060FF87EBF35EEB4F2 /* Build configuration list for PBXNativeTarget "Pods-PasswordDraft" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				17EEE6E2DDBB73FCF820029599A99264 /* Debug */,
-				0768F79DD99AE56A6D0C0AE463DF8193 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -639,6 +630,15 @@
 			buildConfigurations = (
 				3F1A394631A8AAFF07298944BD9B8135 /* Debug */,
 				07F39CDB8D7EF27A2DD154503E12871F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A469683BF512F4D57C38809AFDBD3396 /* Build configuration list for PBXNativeTarget "Pods-MinimalPasswords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9B8221E3B0AD941F9E5A4BF74D8BE4 /* Debug */,
+				25802EAD9CDB71D9CAA8E5148A3EB1F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

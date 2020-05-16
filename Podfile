@@ -1,7 +1,7 @@
 
 platform :ios, '11.0'
 
-target 'PasswordDraft' do
+target 'MinimalPasswords' do
 
   # This is for Swift
   # use_frameworks!

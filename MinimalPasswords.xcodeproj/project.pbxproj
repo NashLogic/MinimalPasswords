@@ -7,44 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5603A87024689A3700F52614 /* PasswordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5603A86F24689A3700F52614 /* PasswordRow.swift */; };
-		5632AF9323F02174009B7A5E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5632AF9223F02174009B7A5E /* CustomButton.swift */; };
-		569CF27523D7C28900D9EF6C /* MainMenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569CF27423D7C28900D9EF6C /* MainMenuScreen.swift */; };
-		56B9823F23D9A974009E6F90 /* ListPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B9823E23D9A974009E6F90 /* ListPasswordScreen.swift */; };
-		56BDBE5D246EABD200045EB0 /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BDBE5C246EABD200045EB0 /* PasswordCell.swift */; };
-		56CB9A6C23AB4D4A000829DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CB9A6B23AB4D4A000829DD /* AppDelegate.swift */; };
-		56CB9A6E23AB4D4A000829DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CB9A6D23AB4D4A000829DD /* SceneDelegate.swift */; };
-		56CB9A7023AB4D4A000829DD /* GeneratePasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CB9A6F23AB4D4A000829DD /* GeneratePasswordScreen.swift */; };
-		56CB9A7323AB4D4A000829DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CB9A7123AB4D4A000829DD /* Main.storyboard */; };
-		56CB9A7523AB4D62000829DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56CB9A7423AB4D62000829DD /* Assets.xcassets */; };
-		56CB9A7823AB4D62000829DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CB9A7623AB4D62000829DD /* LaunchScreen.storyboard */; };
-		56D4179523D3BF0D00541526 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D4179423D3BF0D00541526 /* LoginScreen.swift */; };
-		56D4179E23D3C02800541526 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D4179D23D3C02800541526 /* MainNavigationController.swift */; };
-		AD0B630B8729457B79259089 /* libPods-PasswordDraft.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5857C154B428E76D72F373 /* libPods-PasswordDraft.a */; };
+		0D78356CC21E1B4DA46F64BF /* libPods-MinimalPasswords.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA4DD446BC31E3CF2FC4B8D /* libPods-MinimalPasswords.a */; };
+		568C28A824702D7800B3D113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568C28A724702D7800B3D113 /* Assets.xcassets */; };
+		568C28B124702E9300B3D113 /* ListPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28B024702E9300B3D113 /* ListPasswordScreen.swift */; };
+		568C28B324702EA300B3D113 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28B224702EA300B3D113 /* LoginScreen.swift */; };
+		568C28B524702EB300B3D113 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28B424702EB300B3D113 /* CustomButton.swift */; };
+		568C28B724702EC400B3D113 /* GeneratePasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28B624702EC400B3D113 /* GeneratePasswordScreen.swift */; };
+		568C28BB24702EE100B3D113 /* PasswordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28BA24702EE100B3D113 /* PasswordRow.swift */; };
+		568C28BD24702EF000B3D113 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28BC24702EF000B3D113 /* SceneDelegate.swift */; };
+		568C28CC2470335500B3D113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28CB2470335500B3D113 /* AppDelegate.swift */; };
+		568C28CE2470339300B3D113 /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28CD2470339300B3D113 /* PasswordCell.swift */; };
+		568C28D0247033A800B3D113 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28CF247033A800B3D113 /* MainNavigationController.swift */; };
+		568C28E724703B2B00B3D113 /* MainMenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28E624703B2B00B3D113 /* MainMenuScreen.swift */; };
+		568C28EC24703BF700B3D113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568C28EB24703BF700B3D113 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5603A86F24689A3700F52614 /* PasswordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRow.swift; sourceTree = "<group>"; };
-		5632AF9223F02174009B7A5E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		5649932A2467CF76002421A5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		569CF27423D7C28900D9EF6C /* MainMenuScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScreen.swift; sourceTree = "<group>"; };
-		56B9823E23D9A974009E6F90 /* ListPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPasswordScreen.swift; sourceTree = "<group>"; };
-		56BDBE5C246EABD200045EB0 /* PasswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PasswordCell.swift; path = PasswordDraft/Common/PasswordCell.swift; sourceTree = SOURCE_ROOT; };
-		56CB9A6823AB4D4A000829DD /* PasswordDraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordDraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		56CB9A6B23AB4D4A000829DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56CB9A6D23AB4D4A000829DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		56CB9A6F23AB4D4A000829DD /* GeneratePasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratePasswordScreen.swift; sourceTree = "<group>"; };
-		56CB9A7223AB4D4A000829DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		56CB9A7423AB4D62000829DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		56CB9A7723AB4D62000829DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		568C28A724702D7800B3D113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MinimalPasswords/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		568C28AF24702E4300B3D113 /* MainMenuScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainMenuScreen.swift; path = ../../ViewControllers/MainMenuScreen.swift; sourceTree = "<group>"; };
+		568C28B024702E9300B3D113 /* ListPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListPasswordScreen.swift; path = ../../MinimalPasswords/ViewControllers/ListPasswordScreen.swift; sourceTree = "<group>"; };
+		568C28B224702EA300B3D113 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginScreen.swift; path = ../../MinimalPasswords/ViewControllers/LoginScreen.swift; sourceTree = "<group>"; };
+		568C28B424702EB300B3D113 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = ../../MinimalPasswords/Common/CustomButton.swift; sourceTree = "<group>"; };
+		568C28B624702EC400B3D113 /* GeneratePasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeneratePasswordScreen.swift; path = ../../MinimalPasswords/ViewControllers/GeneratePasswordScreen.swift; sourceTree = "<group>"; };
+		568C28BA24702EE100B3D113 /* PasswordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PasswordRow.swift; path = ../../MinimalPasswords/Common/PasswordRow.swift; sourceTree = "<group>"; };
+		568C28BC24702EF000B3D113 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../MinimalPasswords/Delegates/SceneDelegate.swift; sourceTree = "<group>"; };
+		568C28BF24702F2600B3D113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MinimalPasswords/Storyboards/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		568C28CB2470335500B3D113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../MinimalPasswords/Delegates/AppDelegate.swift; sourceTree = "<group>"; };
+		568C28CD2470339300B3D113 /* PasswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PasswordCell.swift; path = ../../MinimalPasswords/Common/PasswordCell.swift; sourceTree = "<group>"; };
+		568C28CF247033A800B3D113 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainNavigationController.swift; path = ../MinimalPasswords/MainNavigationController.swift; sourceTree = "<group>"; };
+		568C28E624703B2B00B3D113 /* MainMenuScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainMenuScreen.swift; path = MinimalPasswords/ViewControllers/MainMenuScreen.swift; sourceTree = "<group>"; };
+		568C28EB24703BF700B3D113 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../MinimalPasswords/Storyboards/Main.storyboard; sourceTree = "<group>"; };
+		56CB9A6823AB4D4A000829DD /* MinimalPasswords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinimalPasswords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56CB9A7923AB4D62000829DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56D4179423D3BF0D00541526 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
-		56D4179D23D3C02800541526 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		56FFE42724658D0200D9C434 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		5BA4DD446BC31E3CF2FC4B8D /* libPods-MinimalPasswords.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MinimalPasswords.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC26667F592DE7224532125 /* Pods-MinimalPasswords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinimalPasswords.release.xcconfig"; path = "Target Support Files/Pods-MinimalPasswords/Pods-MinimalPasswords.release.xcconfig"; sourceTree = "<group>"; };
 		9A14D5CD089A00FFDE0296D8 /* Pods_PasswordDraft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordDraft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4F7E6AB7CCE634C5C8A9A4B /* Pods-MinimalPasswords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinimalPasswords.debug.xcconfig"; path = "Target Support Files/Pods-MinimalPasswords/Pods-MinimalPasswords.debug.xcconfig"; sourceTree = "<group>"; };
 		E6C7943946078F9922BE36AD /* Pods-PasswordDraft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordDraft.debug.xcconfig"; path = "Target Support Files/Pods-PasswordDraft/Pods-PasswordDraft.debug.xcconfig"; sourceTree = "<group>"; };
 		EF11267AC85B8AB13ECE89F3 /* Pods-PasswordDraft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordDraft.release.xcconfig"; path = "Target Support Files/Pods-PasswordDraft/Pods-PasswordDraft.release.xcconfig"; sourceTree = "<group>"; };
-		FF5857C154B428E76D72F373 /* libPods-PasswordDraft.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PasswordDraft.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD0B630B8729457B79259089 /* libPods-PasswordDraft.a in Frameworks */,
+				0D78356CC21E1B4DA46F64BF /* libPods-MinimalPasswords.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +67,7 @@
 				5649932A2467CF76002421A5 /* libsqlite3.0.tbd */,
 				56FFE42724658D0200D9C434 /* libsqlite3.tbd */,
 				9A14D5CD089A00FFDE0296D8 /* Pods_PasswordDraft.framework */,
-				FF5857C154B428E76D72F373 /* libPods-PasswordDraft.a */,
+				5BA4DD446BC31E3CF2FC4B8D /* libPods-MinimalPasswords.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -73,10 +75,10 @@
 		56C3A0BB2467FDE600D79039 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				56D4179423D3BF0D00541526 /* LoginScreen.swift */,
-				569CF27423D7C28900D9EF6C /* MainMenuScreen.swift */,
-				56B9823E23D9A974009E6F90 /* ListPasswordScreen.swift */,
-				56CB9A6F23AB4D4A000829DD /* GeneratePasswordScreen.swift */,
+				568C28B224702EA300B3D113 /* LoginScreen.swift */,
+				568C28B624702EC400B3D113 /* GeneratePasswordScreen.swift */,
+				568C28B024702E9300B3D113 /* ListPasswordScreen.swift */,
+				568C28AF24702E4300B3D113 /* MainMenuScreen.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -84,8 +86,8 @@
 		56C3A0BC2467FE4C00D79039 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				56CB9A7623AB4D62000829DD /* LaunchScreen.storyboard */,
-				56CB9A7123AB4D4A000829DD /* Main.storyboard */,
+				568C28EB24703BF700B3D113 /* Main.storyboard */,
+				568C28BE24702F2600B3D113 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -93,9 +95,9 @@
 		56C3A0BD2467FE6900D79039 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				5632AF9223F02174009B7A5E /* CustomButton.swift */,
-				5603A86F24689A3700F52614 /* PasswordRow.swift */,
-				56BDBE5C246EABD200045EB0 /* PasswordCell.swift */,
+				568C28CD2470339300B3D113 /* PasswordCell.swift */,
+				568C28BA24702EE100B3D113 /* PasswordRow.swift */,
+				568C28B424702EB300B3D113 /* CustomButton.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -103,8 +105,8 @@
 		56C3A0BE2467FE9400D79039 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
-				56CB9A6B23AB4D4A000829DD /* AppDelegate.swift */,
-				56CB9A6D23AB4D4A000829DD /* SceneDelegate.swift */,
+				568C28BC24702EF000B3D113 /* SceneDelegate.swift */,
+				568C28CB2470335500B3D113 /* AppDelegate.swift */,
 			);
 			path = Delegates;
 			sourceTree = "<group>";
@@ -112,6 +114,7 @@
 		56CB9A5F23AB4D4A000829DD = {
 			isa = PBXGroup;
 			children = (
+				568C28E624703B2B00B3D113 /* MainMenuScreen.swift */,
 				56CB9A6A23AB4D4A000829DD /* PasswordDraft */,
 				56CB9A6923AB4D4A000829DD /* Products */,
 				5680751123C03A45007A5A3A /* Frameworks */,
@@ -122,7 +125,7 @@
 		56CB9A6923AB4D4A000829DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56CB9A6823AB4D4A000829DD /* PasswordDraft.app */,
+				56CB9A6823AB4D4A000829DD /* MinimalPasswords.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,9 +137,9 @@
 				56C3A0BD2467FE6900D79039 /* Common */,
 				56C3A0BC2467FE4C00D79039 /* Storyboards */,
 				56C3A0BB2467FDE600D79039 /* ViewControllers */,
-				56D4179D23D3C02800541526 /* MainNavigationController.swift */,
 				56CB9A7923AB4D62000829DD /* Info.plist */,
-				56CB9A7423AB4D62000829DD /* Assets.xcassets */,
+				568C28CF247033A800B3D113 /* MainNavigationController.swift */,
+				568C28A724702D7800B3D113 /* Assets.xcassets */,
 			);
 			path = PasswordDraft;
 			sourceTree = "<group>";
@@ -146,6 +149,8 @@
 			children = (
 				E6C7943946078F9922BE36AD /* Pods-PasswordDraft.debug.xcconfig */,
 				EF11267AC85B8AB13ECE89F3 /* Pods-PasswordDraft.release.xcconfig */,
+				D4F7E6AB7CCE634C5C8A9A4B /* Pods-MinimalPasswords.debug.xcconfig */,
+				6BC26667F592DE7224532125 /* Pods-MinimalPasswords.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -153,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		56CB9A6723AB4D4A000829DD /* PasswordDraft */ = {
+		56CB9A6723AB4D4A000829DD /* MinimalPasswords */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56CB9A7C23AB4D62000829DD /* Build configuration list for PBXNativeTarget "PasswordDraft" */;
+			buildConfigurationList = 56CB9A7C23AB4D62000829DD /* Build configuration list for PBXNativeTarget "MinimalPasswords" */;
 			buildPhases = (
 				1C9340F00D69DC1CB8ED043F /* [CP] Check Pods Manifest.lock */,
 				56CB9A6423AB4D4A000829DD /* Sources */,
@@ -166,9 +171,9 @@
 			);
 			dependencies = (
 			);
-			name = PasswordDraft;
+			name = MinimalPasswords;
 			productName = PasswordDraft;
-			productReference = 56CB9A6823AB4D4A000829DD /* PasswordDraft.app */;
+			productReference = 56CB9A6823AB4D4A000829DD /* MinimalPasswords.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +191,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 56CB9A6323AB4D4A000829DD /* Build configuration list for PBXProject "PasswordDraft" */;
+			buildConfigurationList = 56CB9A6323AB4D4A000829DD /* Build configuration list for PBXProject "MinimalPasswords" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -199,7 +204,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				56CB9A6723AB4D4A000829DD /* PasswordDraft */,
+				56CB9A6723AB4D4A000829DD /* MinimalPasswords */,
 			);
 		};
 /* End PBXProject section */
@@ -209,9 +214,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56CB9A7823AB4D62000829DD /* LaunchScreen.storyboard in Resources */,
-				56CB9A7523AB4D62000829DD /* Assets.xcassets in Resources */,
-				56CB9A7323AB4D4A000829DD /* Main.storyboard in Resources */,
+				568C28EC24703BF700B3D113 /* Main.storyboard in Resources */,
+				568C28A824702D7800B3D113 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +237,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PasswordDraft-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MinimalPasswords-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -247,34 +251,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56D4179E23D3C02800541526 /* MainNavigationController.swift in Sources */,
-				56BDBE5D246EABD200045EB0 /* PasswordCell.swift in Sources */,
-				569CF27523D7C28900D9EF6C /* MainMenuScreen.swift in Sources */,
-				56B9823F23D9A974009E6F90 /* ListPasswordScreen.swift in Sources */,
-				56D4179523D3BF0D00541526 /* LoginScreen.swift in Sources */,
-				5632AF9323F02174009B7A5E /* CustomButton.swift in Sources */,
-				56CB9A7023AB4D4A000829DD /* GeneratePasswordScreen.swift in Sources */,
-				56CB9A6C23AB4D4A000829DD /* AppDelegate.swift in Sources */,
-				5603A87024689A3700F52614 /* PasswordRow.swift in Sources */,
-				56CB9A6E23AB4D4A000829DD /* SceneDelegate.swift in Sources */,
+				568C28E724703B2B00B3D113 /* MainMenuScreen.swift in Sources */,
+				568C28D0247033A800B3D113 /* MainNavigationController.swift in Sources */,
+				568C28CE2470339300B3D113 /* PasswordCell.swift in Sources */,
+				568C28CC2470335500B3D113 /* AppDelegate.swift in Sources */,
+				568C28BD24702EF000B3D113 /* SceneDelegate.swift in Sources */,
+				568C28BB24702EE100B3D113 /* PasswordRow.swift in Sources */,
+				568C28B724702EC400B3D113 /* GeneratePasswordScreen.swift in Sources */,
+				568C28B524702EB300B3D113 /* CustomButton.swift in Sources */,
+				568C28B324702EA300B3D113 /* LoginScreen.swift in Sources */,
+				568C28B124702E9300B3D113 /* ListPasswordScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		56CB9A7123AB4D4A000829DD /* Main.storyboard */ = {
+		568C28BE24702F2600B3D113 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				56CB9A7223AB4D4A000829DD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		56CB9A7623AB4D62000829DD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				56CB9A7723AB4D62000829DD /* Base */,
+				568C28BF24702F2600B3D113 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -398,18 +394,17 @@
 		};
 		56CB9A7D23AB4D62000829DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6C7943946078F9922BE36AD /* Pods-PasswordDraft.debug.xcconfig */;
+			baseConfigurationReference = D4F7E6AB7CCE634C5C8A9A4B /* Pods-MinimalPasswords.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = V46HMUD2ZG;
-				INFOPLIST_FILE = PasswordDraft/Info.plist;
+				INFOPLIST_FILE = MinimalPasswords/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = nicholas.testing.PasswordDraft;
+				PRODUCT_BUNDLE_IDENTIFIER = nicholas.testing.MinimalPasswords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -418,18 +413,17 @@
 		};
 		56CB9A7E23AB4D62000829DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF11267AC85B8AB13ECE89F3 /* Pods-PasswordDraft.release.xcconfig */;
+			baseConfigurationReference = 6BC26667F592DE7224532125 /* Pods-MinimalPasswords.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = V46HMUD2ZG;
-				INFOPLIST_FILE = PasswordDraft/Info.plist;
+				INFOPLIST_FILE = MinimalPasswords/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = nicholas.testing.PasswordDraft;
+				PRODUCT_BUNDLE_IDENTIFIER = nicholas.testing.MinimalPasswords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -439,7 +433,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		56CB9A6323AB4D4A000829DD /* Build configuration list for PBXProject "PasswordDraft" */ = {
+		56CB9A6323AB4D4A000829DD /* Build configuration list for PBXProject "MinimalPasswords" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56CB9A7A23AB4D62000829DD /* Debug */,
@@ -448,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56CB9A7C23AB4D62000829DD /* Build configuration list for PBXNativeTarget "PasswordDraft" */ = {
+		56CB9A7C23AB4D62000829DD /* Build configuration list for PBXNativeTarget "MinimalPasswords" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56CB9A7D23AB4D62000829DD /* Debug */,
