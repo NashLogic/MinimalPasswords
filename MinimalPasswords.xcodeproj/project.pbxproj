@@ -19,6 +19,7 @@
 		568C983A24B9E7BA00AE5DF8 /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983924B9E7BA00AE5DF8 /* PasswordCell.swift */; };
 		568C983C24B9E7C700AE5DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983B24B9E7C700AE5DF8 /* AppDelegate.swift */; };
 		568C983E24B9E7CE00AE5DF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983D24B9E7CE00AE5DF8 /* SceneDelegate.swift */; };
+		568C984424B9F2B800AE5DF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 568C984324B9F2B800AE5DF8 /* GoogleService-Info.plist */; };
 		FFCE7828E4382E348F4C2752 /* libPods-MinimalPasswords.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B75A7775A4E7ED1C1773345E /* libPods-MinimalPasswords.a */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +28,7 @@
 		568C28A724702D7800B3D113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MinimalPasswords/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		568C28BF24702F2600B3D113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MinimalPasswords/Storyboards/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		568C982924B9E30400AE5DF8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = MinimalPasswords/Storyboards/Main.storyboard; sourceTree = SOURCE_ROOT; };
-		568C982B24B9E35A00AE5DF8 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainNavigationController.swift; path = MinimalPasswords/MainNavigationController.swift; sourceTree = SOURCE_ROOT; };
+		568C982B24B9E35A00AE5DF8 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainNavigationController.swift; path = PasswordDraft/NavigationControllers/MainNavigationController.swift; sourceTree = SOURCE_ROOT; };
 		568C982D24B9E6BC00AE5DF8 /* ListPasswordScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListPasswordScreen.swift; path = MinimalPasswords/ViewControllers/ListPasswordScreen.swift; sourceTree = SOURCE_ROOT; };
 		568C982F24B9E6CC00AE5DF8 /* GeneratePasswordScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeneratePasswordScreen.swift; path = MinimalPasswords/ViewControllers/GeneratePasswordScreen.swift; sourceTree = SOURCE_ROOT; };
 		568C983124B9E6E100AE5DF8 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginScreen.swift; path = MinimalPasswords/ViewControllers/LoginScreen.swift; sourceTree = SOURCE_ROOT; };
@@ -37,8 +38,10 @@
 		568C983924B9E7BA00AE5DF8 /* PasswordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasswordCell.swift; path = MinimalPasswords/Common/PasswordCell.swift; sourceTree = SOURCE_ROOT; };
 		568C983B24B9E7C700AE5DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MinimalPasswords/Delegates/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		568C983D24B9E7CE00AE5DF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = MinimalPasswords/Delegates/SceneDelegate.swift; sourceTree = SOURCE_ROOT; };
+		568C984024B9F03500AE5DF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		568C984324B9F2B800AE5DF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		568C984824B9F3BC00AE5DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = MinimalPasswords/Info.plist; sourceTree = SOURCE_ROOT; };
 		56CB9A6823AB4D4A000829DD /* MinimalPasswords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinimalPasswords.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		56CB9A7923AB4D62000829DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56FFE42724658D0200D9C434 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		B75A7775A4E7ED1C1773345E /* libPods-MinimalPasswords.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MinimalPasswords.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4984D20C5AE27B0D06616CB /* Pods-MinimalPasswords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinimalPasswords.debug.xcconfig"; path = "Target Support Files/Pods-MinimalPasswords/Pods-MinimalPasswords.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +68,14 @@
 				B75A7775A4E7ED1C1773345E /* libPods-MinimalPasswords.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		568C983F24B9E85100AE5DF8 /* NavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				568C982B24B9E35A00AE5DF8 /* MainNavigationController.swift */,
+			);
+			path = NavigationControllers;
 			sourceTree = "<group>";
 		};
 		56C3A0BB2467FDE600D79039 /* ViewControllers */ = {
@@ -127,13 +138,14 @@
 		56CB9A6A23AB4D4A000829DD /* PasswordDraft */ = {
 			isa = PBXGroup;
 			children = (
+				568C983F24B9E85100AE5DF8 /* NavigationControllers */,
 				56C3A0BE2467FE9400D79039 /* Delegates */,
 				56C3A0BD2467FE6900D79039 /* Common */,
 				56C3A0BC2467FE4C00D79039 /* Storyboards */,
 				56C3A0BB2467FDE600D79039 /* ViewControllers */,
-				56CB9A7923AB4D62000829DD /* Info.plist */,
+				568C984324B9F2B800AE5DF8 /* GoogleService-Info.plist */,
+				568C984824B9F3BC00AE5DF8 /* Info.plist */,
 				568C28A724702D7800B3D113 /* Assets.xcassets */,
-				568C982B24B9E35A00AE5DF8 /* MainNavigationController.swift */,
 			);
 			path = PasswordDraft;
 			sourceTree = "<group>";
@@ -141,6 +153,7 @@
 		D49FEAAD42A919E020CAA57C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				568C984024B9F03500AE5DF8 /* GoogleService-Info.plist */,
 				D4984D20C5AE27B0D06616CB /* Pods-MinimalPasswords.debug.xcconfig */,
 				DC30653B846822865D0693B6 /* Pods-MinimalPasswords.release.xcconfig */,
 			);
@@ -208,6 +221,7 @@
 			files = (
 				568C28A824702D7800B3D113 /* Assets.xcassets in Resources */,
 				568C982A24B9E30400AE5DF8 /* Main.storyboard in Resources */,
+				568C984424B9F2B800AE5DF8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,4 +9,9 @@ target 'MinimalPasswords' do
   # List of Pods
   pod 'SQLite.swift', '~> 0.12.0'
 
+  pod 'Firebase/Analytics'
+  
+  pod 'Realm', :modular_headers => true
+  
+  pod 'RealmSwift', :modular_headers => true
 end

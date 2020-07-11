@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "SQLite 2.h"
 #import "SQLite.h"
+#import "SQLiteObjc 2.h"
 #import "SQLiteObjc.h"
 
 FOUNDATION_EXPORT double SQLiteVersionNumber;
