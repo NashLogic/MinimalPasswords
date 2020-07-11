@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		567735A02489141700905142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568C28EB24703BF700B3D113 /* Main.storyboard */; };
 		568C28A824702D7800B3D113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568C28A724702D7800B3D113 /* Assets.xcassets */; };
 		568C28B124702E9300B3D113 /* ListPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28B024702E9300B3D113 /* ListPasswordScreen.swift */; };
 		568C28B324702EA300B3D113 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28B224702EA300B3D113 /* LoginScreen.swift */; };
@@ -17,15 +16,15 @@
 		568C28BD24702EF000B3D113 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28BC24702EF000B3D113 /* SceneDelegate.swift */; };
 		568C28CC2470335500B3D113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28CB2470335500B3D113 /* AppDelegate.swift */; };
 		568C28CE2470339300B3D113 /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28CD2470339300B3D113 /* PasswordCell.swift */; };
-		568C28D0247033A800B3D113 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28CF247033A800B3D113 /* MainNavigationController.swift */; };
 		568C28E724703B2B00B3D113 /* MainMenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C28E624703B2B00B3D113 /* MainMenuScreen.swift */; };
+		568C982A24B9E30400AE5DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568C982924B9E30400AE5DF8 /* Main.storyboard */; };
+		568C982C24B9E35A00AE5DF8 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C982B24B9E35A00AE5DF8 /* MainNavigationController.swift */; };
 		FFCE7828E4382E348F4C2752 /* libPods-MinimalPasswords.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B75A7775A4E7ED1C1773345E /* libPods-MinimalPasswords.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5649932A2467CF76002421A5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		568C28A724702D7800B3D113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MinimalPasswords/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		568C28AF24702E4300B3D113 /* MainMenuScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainMenuScreen.swift; path = ../../ViewControllers/MainMenuScreen.swift; sourceTree = "<group>"; };
 		568C28B024702E9300B3D113 /* ListPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListPasswordScreen.swift; path = ../../MinimalPasswords/ViewControllers/ListPasswordScreen.swift; sourceTree = "<group>"; };
 		568C28B224702EA300B3D113 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginScreen.swift; path = ../../MinimalPasswords/ViewControllers/LoginScreen.swift; sourceTree = "<group>"; };
 		568C28B424702EB300B3D113 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = ../../MinimalPasswords/Common/CustomButton.swift; sourceTree = "<group>"; };
@@ -35,9 +34,9 @@
 		568C28BF24702F2600B3D113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MinimalPasswords/Storyboards/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		568C28CB2470335500B3D113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../MinimalPasswords/Delegates/AppDelegate.swift; sourceTree = "<group>"; };
 		568C28CD2470339300B3D113 /* PasswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PasswordCell.swift; path = ../../MinimalPasswords/Common/PasswordCell.swift; sourceTree = "<group>"; };
-		568C28CF247033A800B3D113 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainNavigationController.swift; path = ../MinimalPasswords/MainNavigationController.swift; sourceTree = "<group>"; };
-		568C28E624703B2B00B3D113 /* MainMenuScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainMenuScreen.swift; path = MinimalPasswords/ViewControllers/MainMenuScreen.swift; sourceTree = "<group>"; };
-		568C28EB24703BF700B3D113 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../MinimalPasswords/Storyboards/Main.storyboard; sourceTree = "<group>"; };
+		568C28E624703B2B00B3D113 /* MainMenuScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainMenuScreen.swift; path = ../../ViewControllers/MainMenuScreen.swift; sourceTree = "<group>"; };
+		568C982924B9E30400AE5DF8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = MinimalPasswords/Storyboards/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		568C982B24B9E35A00AE5DF8 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainNavigationController.swift; path = MinimalPasswords/MainNavigationController.swift; sourceTree = SOURCE_ROOT; };
 		56CB9A6823AB4D4A000829DD /* MinimalPasswords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinimalPasswords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56CB9A7923AB4D62000829DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56FFE42724658D0200D9C434 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -71,10 +70,10 @@
 		56C3A0BB2467FDE600D79039 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				568C28E624703B2B00B3D113 /* MainMenuScreen.swift */,
 				568C28B224702EA300B3D113 /* LoginScreen.swift */,
 				568C28B624702EC400B3D113 /* GeneratePasswordScreen.swift */,
 				568C28B024702E9300B3D113 /* ListPasswordScreen.swift */,
-				568C28AF24702E4300B3D113 /* MainMenuScreen.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -82,7 +81,7 @@
 		56C3A0BC2467FE4C00D79039 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				568C28EB24703BF700B3D113 /* Main.storyboard */,
+				568C982924B9E30400AE5DF8 /* Main.storyboard */,
 				568C28BE24702F2600B3D113 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -110,7 +109,6 @@
 		56CB9A5F23AB4D4A000829DD = {
 			isa = PBXGroup;
 			children = (
-				568C28E624703B2B00B3D113 /* MainMenuScreen.swift */,
 				56CB9A6A23AB4D4A000829DD /* PasswordDraft */,
 				56CB9A6923AB4D4A000829DD /* Products */,
 				5680751123C03A45007A5A3A /* Frameworks */,
@@ -134,8 +132,8 @@
 				56C3A0BC2467FE4C00D79039 /* Storyboards */,
 				56C3A0BB2467FDE600D79039 /* ViewControllers */,
 				56CB9A7923AB4D62000829DD /* Info.plist */,
-				568C28CF247033A800B3D113 /* MainNavigationController.swift */,
 				568C28A724702D7800B3D113 /* Assets.xcassets */,
+				568C982B24B9E35A00AE5DF8 /* MainNavigationController.swift */,
 			);
 			path = PasswordDraft;
 			sourceTree = "<group>";
@@ -209,7 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				568C28A824702D7800B3D113 /* Assets.xcassets in Resources */,
-				567735A02489141700905142 /* Main.storyboard in Resources */,
+				568C982A24B9E30400AE5DF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,8 +243,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				568C982C24B9E35A00AE5DF8 /* MainNavigationController.swift in Sources */,
 				568C28E724703B2B00B3D113 /* MainMenuScreen.swift in Sources */,
-				568C28D0247033A800B3D113 /* MainNavigationController.swift in Sources */,
 				568C28CE2470339300B3D113 /* PasswordCell.swift in Sources */,
 				568C28CC2470335500B3D113 /* AppDelegate.swift in Sources */,
 				568C28BD24702EF000B3D113 /* SceneDelegate.swift in Sources */,
