@@ -5,9 +5,9 @@
       location = "container:/Users/nicholasglover/Documents/GitHub/MinimalPasswords/MinimalPasswords.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Pods/Pods.xcodeproj">
+      location = "group:MinimalPasswords.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:MinimalPasswords.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
