@@ -15,11 +15,11 @@
 		568C983224B9E6E100AE5DF8 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983124B9E6E100AE5DF8 /* LoginScreen.swift */; };
 		568C983424B9E72400AE5DF8 /* MainMenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983324B9E72400AE5DF8 /* MainMenuScreen.swift */; };
 		568C983624B9E7A700AE5DF8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983524B9E7A700AE5DF8 /* CustomButton.swift */; };
-		568C983824B9E7B200AE5DF8 /* PasswordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983724B9E7B200AE5DF8 /* PasswordRow.swift */; };
 		568C983A24B9E7BA00AE5DF8 /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983924B9E7BA00AE5DF8 /* PasswordCell.swift */; };
 		568C983C24B9E7C700AE5DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983B24B9E7C700AE5DF8 /* AppDelegate.swift */; };
 		568C983E24B9E7CE00AE5DF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983D24B9E7CE00AE5DF8 /* SceneDelegate.swift */; };
 		568C984424B9F2B800AE5DF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 568C984324B9F2B800AE5DF8 /* GoogleService-Info.plist */; };
+		56FA6F5A24BB3F410035D21F /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA6F5924BB3F410035D21F /* Realm.swift */; };
 		FFCE7828E4382E348F4C2752 /* libPods-MinimalPasswords.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B75A7775A4E7ED1C1773345E /* libPods-MinimalPasswords.a */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,6 @@
 		568C983124B9E6E100AE5DF8 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginScreen.swift; path = MinimalPasswords/ViewControllers/LoginScreen.swift; sourceTree = SOURCE_ROOT; };
 		568C983324B9E72400AE5DF8 /* MainMenuScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMenuScreen.swift; path = MinimalPasswords/ViewControllers/MainMenuScreen.swift; sourceTree = SOURCE_ROOT; };
 		568C983524B9E7A700AE5DF8 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = MinimalPasswords/Common/CustomButton.swift; sourceTree = SOURCE_ROOT; };
-		568C983724B9E7B200AE5DF8 /* PasswordRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasswordRow.swift; path = MinimalPasswords/Common/PasswordRow.swift; sourceTree = SOURCE_ROOT; };
 		568C983924B9E7BA00AE5DF8 /* PasswordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasswordCell.swift; path = MinimalPasswords/Common/PasswordCell.swift; sourceTree = SOURCE_ROOT; };
 		568C983B24B9E7C700AE5DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MinimalPasswords/Delegates/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		568C983D24B9E7CE00AE5DF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = MinimalPasswords/Delegates/SceneDelegate.swift; sourceTree = SOURCE_ROOT; };
@@ -42,6 +41,7 @@
 		568C984324B9F2B800AE5DF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		568C984824B9F3BC00AE5DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = MinimalPasswords/Info.plist; sourceTree = SOURCE_ROOT; };
 		56CB9A6823AB4D4A000829DD /* MinimalPasswords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinimalPasswords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FA6F5924BB3F410035D21F /* Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
 		56FFE42724658D0200D9C434 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		B75A7775A4E7ED1C1773345E /* libPods-MinimalPasswords.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MinimalPasswords.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4984D20C5AE27B0D06616CB /* Pods-MinimalPasswords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinimalPasswords.debug.xcconfig"; path = "Target Support Files/Pods-MinimalPasswords/Pods-MinimalPasswords.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				568C983924B9E7BA00AE5DF8 /* PasswordCell.swift */,
-				568C983724B9E7B200AE5DF8 /* PasswordRow.swift */,
 				568C983524B9E7A700AE5DF8 /* CustomButton.swift */,
 			);
 			path = Common;
@@ -138,6 +137,7 @@
 		56CB9A6A23AB4D4A000829DD /* PasswordDraft */ = {
 			isa = PBXGroup;
 			children = (
+				56FA6F5824BB3F2B0035D21F /* Globals */,
 				568C983F24B9E85100AE5DF8 /* NavigationControllers */,
 				56C3A0BE2467FE9400D79039 /* Delegates */,
 				56C3A0BD2467FE6900D79039 /* Common */,
@@ -148,6 +148,14 @@
 				568C28A724702D7800B3D113 /* Assets.xcassets */,
 			);
 			path = PasswordDraft;
+			sourceTree = "<group>";
+		};
+		56FA6F5824BB3F2B0035D21F /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				56FA6F5924BB3F410035D21F /* Realm.swift */,
+			);
+			path = Globals;
 			sourceTree = "<group>";
 		};
 		D49FEAAD42A919E020CAA57C /* Pods */ = {
@@ -260,10 +268,10 @@
 				568C982C24B9E35A00AE5DF8 /* MainNavigationController.swift in Sources */,
 				568C983024B9E6CC00AE5DF8 /* GeneratePasswordScreen.swift in Sources */,
 				568C983424B9E72400AE5DF8 /* MainMenuScreen.swift in Sources */,
+				56FA6F5A24BB3F410035D21F /* Realm.swift in Sources */,
 				568C983624B9E7A700AE5DF8 /* CustomButton.swift in Sources */,
 				568C983A24B9E7BA00AE5DF8 /* PasswordCell.swift in Sources */,
 				568C983E24B9E7CE00AE5DF8 /* SceneDelegate.swift in Sources */,
-				568C983824B9E7B200AE5DF8 /* PasswordRow.swift in Sources */,
 				568C982E24B9E6BC00AE5DF8 /* ListPasswordScreen.swift in Sources */,
 				568C983C24B9E7C700AE5DF8 /* AppDelegate.swift in Sources */,
 				568C983224B9E6E100AE5DF8 /* LoginScreen.swift in Sources */,

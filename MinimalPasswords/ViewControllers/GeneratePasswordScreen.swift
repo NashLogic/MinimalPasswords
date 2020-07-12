@@ -8,30 +8,15 @@
 
 import UIKit
 import Foundation
-import SQLite
-import SQLite3
-
-
+import RealmSwift
 
 class ViewController: UIViewController {
-    
-    
-    // Before anything, initiate the database of type Connection
-    var globalDatabase: OpaquePointer?
-    var db: OpaquePointer?
+
+    // Settings for password creation
     var loweralpha:Bool = true
     var upperalpha:Bool = true
     var numbers:Bool = true
     var symbols:Bool = true
-
-    
-    // Create the first table, if it doesn't exist
-    let passwordsTable = Table("passwordsTable")
-    let id = Expression<Int>("id")
-    let company = Expression<String>("company")
-    let login = Expression<String>("login")
-    let passwordForCompany = Expression<String>("passwordForCompany")
-    
     
     // Define all connections
     @IBOutlet weak var companyName: UITextField!
@@ -43,60 +28,40 @@ class ViewController: UIViewController {
     @IBOutlet weak var switch0to9Outlet: UISwitch!
     @IBOutlet weak var switchSymbolsOutlet: UISwitch!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
     
     @objc func dismissKeyboard() {
         //Causes the view (or one of its embedded text fields) to resign the first responder status.
         view.endEditing(true)
     }
-    
-    
-    func insert(insertStatementString:String) {
-      var insertStatement: OpaquePointer?
-      // 1
-      if sqlite3_prepare_v2(globalDatabase, insertStatementString, -1, &insertStatement, nil) ==
-          SQLITE_OK {
-        if sqlite3_step(insertStatement) == SQLITE_DONE {
-          print("\nSuccessfully inserted row.")
-        } else {
-          print("\nCould not insert row.")
-        }
-      } else {
-        print("\nINSERT statement is not prepared.")
-      }
-      // 5
-      sqlite3_finalize(insertStatement)
-    }
 
-    
     @IBAction func savePassword(_ sender: Any) {
         if textField.text != "" {
             let passwordToBeSaved = textField.text!
             let companyToBeSaved = companyName.text!
             let usernameToBeSaved = username.text!
-            do {
-                let insertStatementString = "INSERT INTO passwordsTable (id, login, company, password) VALUES (null, '\(companyToBeSaved)',   '\(usernameToBeSaved)', '\(passwordToBeSaved)')"
-                insert(insertStatementString: insertStatementString)
-                print("Successfully saved password to database")
+            
+            let realm = try! Realm()
+            
+            let newPasswordToSave = Password()
+            newPasswordToSave.company = companyToBeSaved
+            newPasswordToSave.login = usernameToBeSaved
+            newPasswordToSave.password = passwordToBeSaved
+            
+            try! realm.write {
+                realm.add(newPasswordToSave)
                 
-                let alert = UIAlertController(title: "Password saved", message:
-                    "Press enter to continue", preferredStyle: .alert)
+                let alert = UIAlertController(title: "Password saved", message: "Press enter to continue", preferredStyle: .alert)
                 let okAction = UIAlertAction(title: "Enter", style: UIAlertAction.Style.default)
                 alert.addAction(okAction)
                 self.present(alert, animated: true)
-                    
-            } catch {
-                print(error)
             }
         } else {
             print("Cannot save as there is no password")
         }
     }
-    
     
     @IBAction func switchatoz(_ sender: Any) {
         if switchatozOutlet.isOn {
@@ -106,8 +71,6 @@ class ViewController: UIViewController {
         }
     }
     
-    
-    
     @IBAction func switchAtoZ(_ sender: Any) {
         if switchAtoZOutlet.isOn {
             upperalpha = true
@@ -116,7 +79,6 @@ class ViewController: UIViewController {
         }
     }
 
-    
     @IBAction func switch0to9(_ sender: Any) {
         if switch0to9Outlet.isOn {
             numbers = true
@@ -125,7 +87,6 @@ class ViewController: UIViewController {
         }
     }
     
-    
     @IBAction func switchSymbolsOutlet(_ sender: Any) {
         if switchSymbolsOutlet.isOn {
                 symbols = true
@@ -133,7 +94,6 @@ class ViewController: UIViewController {
                 symbols = false
             }
     }
-    
     
     @IBAction func generateButton(_ sender: Any) {
         
@@ -179,7 +139,6 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     
-    
     @IBAction func clearButton(_ sender: Any) {
         textField.text = ""
         let alert = UIAlertController(title: "Text Field cleared", message:
@@ -188,6 +147,4 @@ class ViewController: UIViewController {
         alert.addAction(okAction)
         self.present(alert, animated: true)
     }
-    
-    
 }
