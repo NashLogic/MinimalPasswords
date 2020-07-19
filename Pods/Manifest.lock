@@ -69,15 +69,13 @@ PODS:
   - Realm/Headers (5.2.0)
   - RealmSwift (5.2.0):
     - Realm (= 5.2.0)
-  - SQLite.swift (0.12.2):
-    - SQLite.swift/standard (= 0.12.2)
-  - SQLite.swift/standard (0.12.2)
+  - SideMenu (6.4.8)
 
 DEPENDENCIES:
   - Firebase/Analytics
   - Realm
   - RealmSwift
-  - SQLite.swift (~> 0.12.0)
+  - SideMenu
 
 SPEC REPOS:
   trunk:
@@ -94,7 +92,7 @@ SPEC REPOS:
     - PromisesObjC
     - Realm
     - RealmSwift
-    - SQLite.swift
+    - SideMenu
 
 SPEC CHECKSUMS:
   Firebase: fc4cbf6f1592636431821ef9a3c557e4dfd9f268
@@ -110,8 +108,8 @@ SPEC CHECKSUMS:
   PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
   Realm: f749c723e272f08fdf1939af5e61d2bd09b203e8
   RealmSwift: bf0ab78b52c5bafba8b3ad73be8dfb4c1ea5cf01
-  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  SideMenu: 4a891be552d30bb6fa87ad404d62e485f8450c34
 
-PODFILE CHECKSUM: 69e237ec693fd52b3b4e5a26de291338714f2213
+PODFILE CHECKSUM: 876efede1a2c14dd1a7680fa148a8d50815e8be1
 
 COCOAPODS: 1.9.3
