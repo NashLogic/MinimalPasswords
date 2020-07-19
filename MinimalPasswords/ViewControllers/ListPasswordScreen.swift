@@ -20,12 +20,14 @@ class ListPasswordsViewController: UIViewController {
     let realm = try! Realm()
     var passwordList:Array<Password> = []
     var safeArea: UILayoutGuide!
-
+    var gradientLayer = CAGradientLayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.hideKeyboardWhenTappedAround()
 
+        createCAGradientLayer()
+        
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "passwordCell")
         
         safeArea = view.layoutMarginsGuide
@@ -38,6 +40,15 @@ class ListPasswordsViewController: UIViewController {
         tableView.dataSource = self
     }
     
+    func createCAGradientLayer() {
+        gradientLayer.frame = self.view.bounds
+        gradientLayer.locations = [0.0, 1.0]
+        gradientLayer.colors = [UIColor.white.cgColor, UIColor.darkCloudBlue.cgColor]
+        gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.0)
+        gradientLayer.endPoint = CGPoint(x: 1.0, y: 1.0)
+        self.view.layer.insertSublayer(gradientLayer, at: 0)
+    }
+    
     func setupTableView() {
         view.addSubview(tableView)
         tableView.translatesAutoresizingMaskIntoConstraints = false
@@ -45,11 +56,6 @@ class ListPasswordsViewController: UIViewController {
         tableView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
         tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         tableView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
-    }
-    
-    @objc func dismissKeyboard() {
-        //Causes the view (or one of its embedded text fields) to resign the first responder status.
-        view.endEditing(true)
     }
     
     @IBAction func listPasswords(_ sender: Any)

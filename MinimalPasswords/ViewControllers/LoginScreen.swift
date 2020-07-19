@@ -14,25 +14,35 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var ViewForUnderline: UIView!
     @IBOutlet weak var LoginText: UITextField!
     @IBOutlet weak var PasswordText: UITextField!
-    
-   
+    var gradientLayer = CAGradientLayer()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let viewForUnderline = UIView(frame: CGRect(x: 70, y: 300, width: 280, height: 300))
-        
-        viewForUnderline.layer.borderWidth = 1
-        viewForUnderline.layer.borderColor = UIColor.black.cgColor
-        viewForUnderline.layer.cornerRadius = 20
-//        view.addSubview(viewForUnderline)
-        
+        self.hideKeyboardWhenTappedAround()
+
+        createCAGradientLayer()
+     
         LoginText.layer.borderWidth = 1
-        LoginText.layer.borderColor = UIColor.black.cgColor
-        LoginText.attributedPlaceholder = NSAttributedString(string: "Enter login", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
+        LoginText.layer.borderColor = UIColor.davysGray.cgColor
+        LoginText.attributedPlaceholder = NSAttributedString(string: "Enter login", attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkGray])
+        LoginText.layer.cornerRadius = 10
+        LoginText.addConstraint(LoginText.heightAnchor.constraint(equalToConstant: 35))
         
         PasswordText.layer.borderWidth = 1
-        PasswordText.layer.borderColor = UIColor.black.cgColor
-        PasswordText.attributedPlaceholder = NSAttributedString(string: "Enter password", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
+        PasswordText.layer.borderColor = UIColor.davysGray.cgColor
+        PasswordText.layer.cornerRadius = 10
+        PasswordText.attributedPlaceholder = NSAttributedString(string: "Enter password", attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkGray])
+        PasswordText.addConstraint(PasswordText.heightAnchor.constraint(equalToConstant: 35))
+
+    }
+    
+    func createCAGradientLayer() {
+        gradientLayer.frame = self.view.bounds
+        gradientLayer.locations = [0.0, 1.0]
+        gradientLayer.colors = [UIColor.ghostWhite.cgColor, UIColor.blueSapphire.cgColor]
+        gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.0)
+        gradientLayer.endPoint = CGPoint(x: 1.0, y: 1.0)
+        self.view.layer.insertSublayer(gradientLayer, at: 0)
     }
     
     @IBAction func LoginTapped(_ sender: Any) {
@@ -50,7 +60,7 @@ class LoginViewController: UIViewController {
     private func navigateToMainInterface() {
         let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         
-        guard let mainNavigationVC =  mainStoryboard.instantiateViewController(withIdentifier: "MainNavigationController") as? MainNavigationController else {
+        guard let mainNavigationVC = mainStoryboard.instantiateViewController(withIdentifier: "MainNavigationController") as? MainNavigationController else {
             return
         }
         

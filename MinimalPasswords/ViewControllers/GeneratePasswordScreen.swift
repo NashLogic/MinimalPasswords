@@ -27,16 +27,48 @@ class ViewController: UIViewController {
     @IBOutlet weak var switchAtoZOutlet: UISwitch!
     @IBOutlet weak var switch0to9Outlet: UISwitch!
     @IBOutlet weak var switchSymbolsOutlet: UISwitch!
-    
+    var gradientLayer = CAGradientLayer()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-    
-    @objc func dismissKeyboard() {
-        //Causes the view (or one of its embedded text fields) to resign the first responder status.
-        view.endEditing(true)
+        self.hideKeyboardWhenTappedAround()
+        
+        companyName.layer.borderWidth = 1
+        companyName.layer.borderColor = UIColor.black.cgColor
+        companyName.attributedPlaceholder = NSAttributedString(string: "", attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkGray])
+        companyName.layer.cornerRadius = 10
+        companyName.addConstraint(companyName.heightAnchor.constraint(equalToConstant: 35))
+        
+        username.layer.borderWidth = 1
+        username.layer.borderColor = UIColor.black.cgColor
+        username.attributedPlaceholder = NSAttributedString(string: "", attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkGray])
+        username.layer.cornerRadius = 10
+        username.addConstraint(username.heightAnchor.constraint(equalToConstant: 35))
+        
+        passwordLength.layer.borderWidth = 1
+        passwordLength.layer.borderColor = UIColor.black.cgColor
+        passwordLength.attributedPlaceholder = NSAttributedString(string: "", attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkGray])
+        passwordLength.layer.cornerRadius = 10
+        passwordLength.addConstraint(passwordLength.heightAnchor.constraint(equalToConstant: 35))
+        
+        textField.layer.borderWidth = 1
+        textField.layer.borderColor = UIColor.black.cgColor
+        textField.attributedPlaceholder = NSAttributedString(string: "", attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkGray])
+        textField.layer.cornerRadius = 10
+        textField.addConstraint(textField.heightAnchor.constraint(equalToConstant: 35))
+        
+        createCAGradientLayer()
     }
 
+    func createCAGradientLayer() {
+        gradientLayer.frame = self.view.bounds
+        gradientLayer.locations = [0.0, 1.0]
+        gradientLayer.colors = [UIColor.white.cgColor, UIColor.darkCloudBlue.cgColor]
+        gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.0)
+        gradientLayer.endPoint = CGPoint(x: 1.0, y: 1.0)
+        self.view.layer.insertSublayer(gradientLayer, at: 0)
+    }
+    
     @IBAction func savePassword(_ sender: Any) {
         if textField.text != "" {
             let passwordToBeSaved = textField.text!

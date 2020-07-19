@@ -19,6 +19,8 @@
 		568C983C24B9E7C700AE5DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983B24B9E7C700AE5DF8 /* AppDelegate.swift */; };
 		568C983E24B9E7CE00AE5DF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983D24B9E7CE00AE5DF8 /* SceneDelegate.swift */; };
 		568C984424B9F2B800AE5DF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 568C984324B9F2B800AE5DF8 /* GoogleService-Info.plist */; };
+		56AE315A24C44D6F00810EB6 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AE315924C44D6F00810EB6 /* ViewControllerExtensions.swift */; };
+		56AE315C24C453D400810EB6 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AE315B24C453D400810EB6 /* ColorExtensions.swift */; };
 		56FA6F5A24BB3F410035D21F /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA6F5924BB3F410035D21F /* Realm.swift */; };
 		FFCE7828E4382E348F4C2752 /* libPods-MinimalPasswords.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B75A7775A4E7ED1C1773345E /* libPods-MinimalPasswords.a */; };
 /* End PBXBuildFile section */
@@ -40,6 +42,8 @@
 		568C984024B9F03500AE5DF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		568C984324B9F2B800AE5DF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		568C984824B9F3BC00AE5DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = MinimalPasswords/Info.plist; sourceTree = SOURCE_ROOT; };
+		56AE315924C44D6F00810EB6 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
+		56AE315B24C453D400810EB6 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 		56CB9A6823AB4D4A000829DD /* MinimalPasswords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinimalPasswords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56FA6F5924BB3F410035D21F /* Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
 		56FFE42724658D0200D9C434 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -78,11 +82,20 @@
 			path = NavigationControllers;
 			sourceTree = "<group>";
 		};
+		56AE315824C44D4800810EB6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				56AE315924C44D6F00810EB6 /* ViewControllerExtensions.swift */,
+				56AE315B24C453D400810EB6 /* ColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		56C3A0BB2467FDE600D79039 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				568C983324B9E72400AE5DF8 /* MainMenuScreen.swift */,
 				568C983124B9E6E100AE5DF8 /* LoginScreen.swift */,
+				568C983324B9E72400AE5DF8 /* MainMenuScreen.swift */,
 				568C982F24B9E6CC00AE5DF8 /* GeneratePasswordScreen.swift */,
 				568C982D24B9E6BC00AE5DF8 /* ListPasswordScreen.swift */,
 			);
@@ -137,6 +150,7 @@
 		56CB9A6A23AB4D4A000829DD /* PasswordDraft */ = {
 			isa = PBXGroup;
 			children = (
+				56AE315824C44D4800810EB6 /* Extensions */,
 				56FA6F5824BB3F2B0035D21F /* Globals */,
 				568C983F24B9E85100AE5DF8 /* NavigationControllers */,
 				56C3A0BE2467FE9400D79039 /* Delegates */,
@@ -265,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56AE315A24C44D6F00810EB6 /* ViewControllerExtensions.swift in Sources */,
 				568C982C24B9E35A00AE5DF8 /* MainNavigationController.swift in Sources */,
 				568C983024B9E6CC00AE5DF8 /* GeneratePasswordScreen.swift in Sources */,
 				568C983424B9E72400AE5DF8 /* MainMenuScreen.swift in Sources */,
@@ -275,6 +290,7 @@
 				568C982E24B9E6BC00AE5DF8 /* ListPasswordScreen.swift in Sources */,
 				568C983C24B9E7C700AE5DF8 /* AppDelegate.swift in Sources */,
 				568C983224B9E6E100AE5DF8 /* LoginScreen.swift in Sources */,
+				56AE315C24C453D400810EB6 /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
