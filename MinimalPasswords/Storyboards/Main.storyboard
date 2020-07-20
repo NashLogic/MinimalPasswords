@@ -406,8 +406,11 @@
                         <viewLayoutGuide key="safeArea" id="UsH-PB-Tdh"/>
                     </view>
                     <connections>
+                        <outlet property="LoginButton" destination="9ML-kN-VJh" id="XTp-Dg-yjM"/>
                         <outlet property="LoginText" destination="Tmm-PM-UTS" id="GMP-dE-2ct"/>
+                        <outlet property="MinimalTitle" destination="7GX-2f-KND" id="OkB-oS-2z3"/>
                         <outlet property="PasswordText" destination="uOd-wj-rQg" id="hyU-WL-Zkg"/>
+                        <outlet property="Underline" destination="yu6-ri-7bg" id="3z9-5P-5eS"/>
                         <outlet property="ViewForUnderline" destination="ThW-Fk-z3z" id="AMd-oz-KkU"/>
                     </connections>
                 </viewController>

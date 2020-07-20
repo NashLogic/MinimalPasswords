@@ -13,8 +13,9 @@ class MainNavigationController: UINavigationController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        navigationBar.barTintColor = UIColor.blueSapphire
+        
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage()
         
 //        let gradient = CAGradientLayer()
 //        var bounds = navigationBar.bounds

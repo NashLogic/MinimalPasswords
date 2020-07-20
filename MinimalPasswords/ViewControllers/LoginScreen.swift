@@ -11,9 +11,12 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var MinimalTitle: UILabel!
     @IBOutlet weak var ViewForUnderline: UIView!
+    @IBOutlet weak var Underline: UILabel!
     @IBOutlet weak var LoginText: UITextField!
     @IBOutlet weak var PasswordText: UITextField!
+    @IBOutlet weak var LoginButton: UIButton!
     var gradientLayer = CAGradientLayer()
 
     override func viewDidLoad() {
@@ -23,17 +26,22 @@ class LoginViewController: UIViewController {
         createCAGradientLayer()
      
         LoginText.layer.borderWidth = 1
-        LoginText.layer.borderColor = UIColor.davysGray.cgColor
-        LoginText.attributedPlaceholder = NSAttributedString(string: "Enter login", attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkGray])
+        LoginText.layer.borderColor = UIColor.charcoal.cgColor
+        LoginText.attributedPlaceholder = NSAttributedString(string: "Enter login", attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkCharcoal])
         LoginText.layer.cornerRadius = 10
         LoginText.addConstraint(LoginText.heightAnchor.constraint(equalToConstant: 35))
         
         PasswordText.layer.borderWidth = 1
-        PasswordText.layer.borderColor = UIColor.davysGray.cgColor
+        PasswordText.layer.borderColor = UIColor.charcoal.cgColor
         PasswordText.layer.cornerRadius = 10
-        PasswordText.attributedPlaceholder = NSAttributedString(string: "Enter password", attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkGray])
+        PasswordText.attributedPlaceholder = NSAttributedString(string: "Enter password", attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkCharcoal])
         PasswordText.addConstraint(PasswordText.heightAnchor.constraint(equalToConstant: 35))
 
+        MinimalTitle.textColor = UIColor.charcoal
+        
+        LoginButton.setTitleColor(UIColor.charcoal, for: .normal)
+        
+        Underline.textColor = UIColor.charcoal
     }
     
     func createCAGradientLayer() {
