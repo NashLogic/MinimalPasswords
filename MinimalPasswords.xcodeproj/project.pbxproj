@@ -13,7 +13,6 @@
 		568C982E24B9E6BC00AE5DF8 /* ListPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C982D24B9E6BC00AE5DF8 /* ListPasswordScreen.swift */; };
 		568C983024B9E6CC00AE5DF8 /* GeneratePasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C982F24B9E6CC00AE5DF8 /* GeneratePasswordScreen.swift */; };
 		568C983224B9E6E100AE5DF8 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983124B9E6E100AE5DF8 /* LoginScreen.swift */; };
-		568C983424B9E72400AE5DF8 /* MainMenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983324B9E72400AE5DF8 /* MainMenuScreen.swift */; };
 		568C983624B9E7A700AE5DF8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983524B9E7A700AE5DF8 /* CustomButton.swift */; };
 		568C983A24B9E7BA00AE5DF8 /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983924B9E7BA00AE5DF8 /* PasswordCell.swift */; };
 		568C983C24B9E7C700AE5DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C983B24B9E7C700AE5DF8 /* AppDelegate.swift */; };
@@ -34,7 +33,6 @@
 		568C982D24B9E6BC00AE5DF8 /* ListPasswordScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListPasswordScreen.swift; path = MinimalPasswords/ViewControllers/ListPasswordScreen.swift; sourceTree = SOURCE_ROOT; };
 		568C982F24B9E6CC00AE5DF8 /* GeneratePasswordScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeneratePasswordScreen.swift; path = MinimalPasswords/ViewControllers/GeneratePasswordScreen.swift; sourceTree = SOURCE_ROOT; };
 		568C983124B9E6E100AE5DF8 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginScreen.swift; path = MinimalPasswords/ViewControllers/LoginScreen.swift; sourceTree = SOURCE_ROOT; };
-		568C983324B9E72400AE5DF8 /* MainMenuScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMenuScreen.swift; path = MinimalPasswords/ViewControllers/MainMenuScreen.swift; sourceTree = SOURCE_ROOT; };
 		568C983524B9E7A700AE5DF8 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = MinimalPasswords/Common/CustomButton.swift; sourceTree = SOURCE_ROOT; };
 		568C983924B9E7BA00AE5DF8 /* PasswordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasswordCell.swift; path = MinimalPasswords/Common/PasswordCell.swift; sourceTree = SOURCE_ROOT; };
 		568C983B24B9E7C700AE5DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MinimalPasswords/Delegates/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
@@ -95,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				568C983124B9E6E100AE5DF8 /* LoginScreen.swift */,
-				568C983324B9E72400AE5DF8 /* MainMenuScreen.swift */,
 				568C982F24B9E6CC00AE5DF8 /* GeneratePasswordScreen.swift */,
 				568C982D24B9E6BC00AE5DF8 /* ListPasswordScreen.swift */,
 			);
@@ -282,7 +279,6 @@
 				56AE315A24C44D6F00810EB6 /* ViewControllerExtensions.swift in Sources */,
 				568C982C24B9E35A00AE5DF8 /* MainNavigationController.swift in Sources */,
 				568C983024B9E6CC00AE5DF8 /* GeneratePasswordScreen.swift in Sources */,
-				568C983424B9E72400AE5DF8 /* MainMenuScreen.swift in Sources */,
 				56FA6F5A24BB3F410035D21F /* Realm.swift in Sources */,
 				568C983624B9E7A700AE5DF8 /* CustomButton.swift in Sources */,
 				568C983A24B9E7BA00AE5DF8 /* PasswordCell.swift in Sources */,

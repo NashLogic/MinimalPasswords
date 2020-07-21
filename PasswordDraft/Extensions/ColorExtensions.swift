@@ -24,4 +24,5 @@ extension UIColor {
     static let blueSapphire = UIColor(red: 28/255, green: 110/255, blue: 140/255, alpha: 1)
     static let charcoal = UIColor(red: 39/255, green: 65/255, blue: 86/255, alpha: 1)
     static let darkCharcoal = UIColor(red:32/255, green: 54/255, blue: 71/255, alpha: 1)
+    static let lightSlateGray = UIColor(red: 124/255, green: 135/255, blue: 147/255, alpha: 1)
 }

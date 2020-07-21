@@ -19,6 +19,14 @@ class MainMenuViewController: UIViewController {
         
         createCAGradientLayer()
 
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "plus"), style: .plain, target: self, action: #selector(switchToGeneratePasswordVC))
+        
+    }
+    
+    @objc func switchToGeneratePasswordVC() {
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let GeneratePasswordViewController = storyBoard.instantiateViewController(withIdentifier: "GeneratePasswordScreen")
+        self.present(GeneratePasswordViewController, animated: true, completion: nil)
     }
     
     func createCAGradientLayer() {

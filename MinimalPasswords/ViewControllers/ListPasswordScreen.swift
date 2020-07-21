@@ -21,7 +21,7 @@ class ListPasswordsViewController: UIViewController {
     var passwordList:Array<Password> = []
     var safeArea: UILayoutGuide!
     var gradientLayer = CAGradientLayer()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
@@ -38,6 +38,21 @@ class ListPasswordsViewController: UIViewController {
         
         tableView.delegate = self
         tableView.dataSource = self
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "plus"), style: .plain, target: self, action: #selector(switchToGeneratePasswordVC))
+        tableView.tableFooterView = UIView()
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        passwordList = Array(realm.objects(Password.self))
+        tableView.reloadData()
+    }
+    
+    @objc func switchToGeneratePasswordVC() {
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let GeneratePasswordViewController = storyBoard.instantiateViewController(withIdentifier: "GeneratePasswordScreen")
+        self.navigationController?.pushViewController(GeneratePasswordViewController, animated: true)
     }
     
     func createCAGradientLayer() {
@@ -80,9 +95,28 @@ extension ListPasswordsViewController: UITableViewDataSource, UITableViewDelegat
         let individualCell = passwordList[indexPath.row]
 
         let passwordCell = tableView.dequeueReusableCell(withIdentifier: "PasswordCell", for: indexPath) as! PasswordCell
+        passwordCell.backgroundColor = UIColor.ghostWhite
         
         passwordCell.setPasswordRealm(passwordRow: individualCell)
         
         return passwordCell
     }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        
+        let realm = try! Realm()
+        
+        if editingStyle == .delete {
+            let recordToDelete = passwordList[indexPath.row]
+            try! realm.write {
+                realm.delete(recordToDelete)
+            }
+            passwordList.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+            tableView.reloadData()
+        } else if editingStyle == .insert {
+            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
+        }
+    }
+    
 }

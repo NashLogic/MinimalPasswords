@@ -16,8 +16,8 @@ class PasswordCell: UITableViewCell {
 
     func setPasswordRealm(passwordRow: Password) {
         CompanyNameLabel.text = passwordRow.company
-        LoginLabel.text = passwordRow.login
-        PasswordLabel.text = passwordRow.password
+//        LoginLabel.text = passwordRow.login
+//        PasswordLabel.text = passwordRow.password
     }
     
 }
