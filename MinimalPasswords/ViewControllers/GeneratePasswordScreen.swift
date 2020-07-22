@@ -18,7 +18,16 @@ class ViewController: UIViewController {
     var numbers:Bool = true
     var symbols:Bool = true
     
-    // Define all connections
+    // Labels and buttons
+    @IBOutlet weak var minimalTitle: UILabel!
+    @IBOutlet weak var companyLabel: UILabel!
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var randomPasswordLabel: UILabel!
+    @IBOutlet weak var generateButton: UIButton!
+    @IBOutlet weak var saveButton: UIButton!
+    @IBOutlet weak var clearButton: UIButton!
+
+    // Textfields and switches
     @IBOutlet weak var companyName: UITextField!
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var passwordLength: UITextField!
@@ -27,6 +36,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var switchAtoZOutlet: UISwitch!
     @IBOutlet weak var switch0to9Outlet: UISwitch!
     @IBOutlet weak var switchSymbolsOutlet: UISwitch!
+    
+    // For the gradient background
     var gradientLayer = CAGradientLayer()
 
     override func viewDidLoad() {
@@ -58,8 +69,23 @@ class ViewController: UIViewController {
         textField.addConstraint(textField.heightAnchor.constraint(equalToConstant: 35))
         
         createCAGradientLayer()
+        synchroniseLabelColours()
     }
 
+    func synchroniseLabelColours() {
+        minimalTitle.textColor = UIColor.blueSapphire
+        companyLabel.textColor = UIColor.blueSapphire
+        usernameLabel.textColor = UIColor.blueSapphire
+        randomPasswordLabel.textColor = UIColor.blueSapphire
+        generateButton.tintColor = UIColor.davysGray
+        saveButton.tintColor = UIColor.davysGray
+        clearButton.tintColor = UIColor.davysGray
+        switchatozOutlet.tintColor = UIColor.blueSapphire
+        switchAtoZOutlet.tintColor = UIColor.blueSapphire
+        switch0to9Outlet.tintColor = UIColor.blueSapphire
+        switchSymbolsOutlet.tintColor = UIColor.blueSapphire
+    }
+    
     func createCAGradientLayer() {
         gradientLayer.frame = self.view.bounds
         gradientLayer.locations = [0.0, 1.0]
