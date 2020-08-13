@@ -26,12 +26,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var generateButton: UIButton!
     @IBOutlet weak var saveButton: UIButton!
     @IBOutlet weak var clearButton: UIButton!
+    @IBOutlet weak var labelatoz: UILabel!
+    @IBOutlet weak var labelAtoZ: UILabel!
+    @IBOutlet weak var label0to9: UILabel!
+    @IBOutlet weak var labelSymbols: UILabel!
+    @IBOutlet weak var labelLength: UILabel!
+    
 
     // Textfields and switches
     @IBOutlet weak var companyName: UITextField!
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var passwordLength: UITextField!
-    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var lengthTextField: UITextField!
     @IBOutlet weak var switchatozOutlet: UISwitch!
     @IBOutlet weak var switchAtoZOutlet: UISwitch!
     @IBOutlet weak var switch0to9Outlet: UISwitch!
@@ -62,17 +68,17 @@ class ViewController: UIViewController {
         passwordLength.layer.cornerRadius = 10
         passwordLength.addConstraint(passwordLength.heightAnchor.constraint(equalToConstant: 35))
         
-        textField.layer.borderWidth = 1
-        textField.layer.borderColor = UIColor.black.cgColor
-        textField.attributedPlaceholder = NSAttributedString(string: "", attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkGray])
-        textField.layer.cornerRadius = 10
-        textField.addConstraint(textField.heightAnchor.constraint(equalToConstant: 35))
+        lengthTextField.layer.borderWidth = 1
+        lengthTextField.layer.borderColor = UIColor.black.cgColor
+        lengthTextField.attributedPlaceholder = NSAttributedString(string: "", attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkGray])
+        lengthTextField.layer.cornerRadius = 10
+        lengthTextField.addConstraint(lengthTextField.heightAnchor.constraint(equalToConstant: 35))
         
         createCAGradientLayer()
-        synchroniseLabelColours()
+        synchroniseLabelandButtonColours()
     }
 
-    func synchroniseLabelColours() {
+    func synchroniseLabelandButtonColours() {
         minimalTitle.textColor = UIColor.blueSapphire
         companyLabel.textColor = UIColor.blueSapphire
         usernameLabel.textColor = UIColor.blueSapphire
@@ -80,10 +86,11 @@ class ViewController: UIViewController {
         generateButton.tintColor = UIColor.davysGray
         saveButton.tintColor = UIColor.davysGray
         clearButton.tintColor = UIColor.davysGray
-        switchatozOutlet.tintColor = UIColor.blueSapphire
-        switchAtoZOutlet.tintColor = UIColor.blueSapphire
-        switch0to9Outlet.tintColor = UIColor.blueSapphire
-        switchSymbolsOutlet.tintColor = UIColor.blueSapphire
+        labelatoz.textColor = UIColor.blueSapphire
+        labelAtoZ.textColor = UIColor.blueSapphire
+        label0to9.textColor = UIColor.blueSapphire
+        labelSymbols.textColor = UIColor.blueSapphire
+        labelLength.textColor = UIColor.blueSapphire
     }
     
     func createCAGradientLayer() {
@@ -96,8 +103,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func savePassword(_ sender: Any) {
-        if textField.text != "" {
-            let passwordToBeSaved = textField.text!
+        if lengthTextField.text != "" {
+            let passwordToBeSaved = lengthTextField.text!
             let companyToBeSaved = companyName.text!
             let usernameToBeSaved = username.text!
             
@@ -155,7 +162,7 @@ class ViewController: UIViewController {
     
     @IBAction func generateButton(_ sender: Any) {
         
-        textField.text = ""
+        lengthTextField.text = ""
         
         func randomString(_ length: Int) -> String
         {
@@ -191,14 +198,14 @@ class ViewController: UIViewController {
         
         if passwordLengthInt != nil {
             let randomlyGeneratedPassword = randomString(passwordLengthInt!)
-            textField.text = randomlyGeneratedPassword
+            lengthTextField.text = randomlyGeneratedPassword
         }
         
         view.endEditing(true)
     }
     
     @IBAction func clearButton(_ sender: Any) {
-        textField.text = ""
+        lengthTextField.text = ""
         let alert = UIAlertController(title: "Text Field cleared", message:
             "Press enter to continue", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "Enter", style: UIAlertAction.Style.default)

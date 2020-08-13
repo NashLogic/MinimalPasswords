@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1P1-JV-urm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1P1-JV-urm">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -229,6 +229,12 @@
                         <outlet property="companyLabel" destination="XJE-Bf-YO6" id="A6V-v7-GeI"/>
                         <outlet property="companyName" destination="ewd-Y8-mxS" id="h3i-DO-VLo"/>
                         <outlet property="generateButton" destination="xpS-Bx-q0w" id="OX7-6l-Uzv"/>
+                        <outlet property="label0to9" destination="g3B-P8-zDi" id="YCQ-08-uFk"/>
+                        <outlet property="labelAtoZ" destination="TUq-nW-Fx5" id="GnL-vh-wx1"/>
+                        <outlet property="labelLength" destination="goQ-x5-lQI" id="LRo-D6-8oz"/>
+                        <outlet property="labelSymbols" destination="5Qj-6Y-0bE" id="UNO-Xz-VXh"/>
+                        <outlet property="labelatoz" destination="3Xm-dg-xqj" id="aUt-7z-02X"/>
+                        <outlet property="lengthTextField" destination="w9s-4b-keS" id="97M-ap-rGk"/>
                         <outlet property="minimalTitle" destination="zNR-WL-8OZ" id="2nA-Cs-qNR"/>
                         <outlet property="passwordLength" destination="8nd-gh-oaE" id="wcq-gC-1ur"/>
                         <outlet property="randomPasswordLabel" destination="ONy-Na-cfQ" id="bsl-RE-hsB"/>
@@ -237,7 +243,6 @@
                         <outlet property="switchAtoZOutlet" destination="RiC-vq-0xX" id="Zqa-4E-ETL"/>
                         <outlet property="switchSymbolsOutlet" destination="YvM-Ff-2WH" id="UHL-l5-GW3"/>
                         <outlet property="switchatozOutlet" destination="mXz-Xl-t5a" id="N2t-jN-6tU"/>
-                        <outlet property="textField" destination="w9s-4b-keS" id="97M-ap-rGk"/>
                         <outlet property="username" destination="Mux-Hv-ssH" id="9IB-DQ-6li"/>
                         <outlet property="usernameLabel" destination="h5Y-OE-H3S" id="d00-Tw-DGG"/>
                     </connections>
@@ -320,14 +325,50 @@
             </objects>
             <point key="canvasLocation" x="1076.8115942028987" y="97.767857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Password Details View Controller-->
         <scene sceneID="ZhV-1J-iXf">
             <objects>
-                <viewController id="cYJ-LH-1eV" sceneMemberID="viewController">
+                <viewController id="cYJ-LH-1eV" customClass="PasswordDetailsViewController" customModule="MinimalPasswords" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yNa-GE-MRv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YtQ-na-Zf4">
+                                <rect key="frame" x="153.5" y="188" width="107" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yY1-EY-mI4" userLabel="UsernameDisplayField">
+                                <rect key="frame" x="186" y="237" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4nh-6n-LDe">
+                                <rect key="frame" x="157" y="318" width="100.5" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6r9-6d-VWV" userLabel="PasswordDisplayField">
+                                <rect key="frame" x="186" y="367" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4nh-6n-LDe" firstAttribute="top" secondItem="yY1-EY-mI4" secondAttribute="bottom" constant="60" id="8Qk-YL-tBh"/>
+                            <constraint firstItem="6r9-6d-VWV" firstAttribute="centerX" secondItem="yNa-GE-MRv" secondAttribute="centerX" id="CK4-k1-IXU"/>
+                            <constraint firstItem="YtQ-na-Zf4" firstAttribute="centerX" secondItem="yNa-GE-MRv" secondAttribute="centerX" id="Lm1-MP-kpm"/>
+                            <constraint firstItem="4nh-6n-LDe" firstAttribute="centerX" secondItem="yNa-GE-MRv" secondAttribute="centerX" id="SwJ-U9-BD5"/>
+                            <constraint firstItem="yY1-EY-mI4" firstAttribute="centerX" secondItem="yNa-GE-MRv" secondAttribute="centerX" id="XD2-zb-IiS"/>
+                            <constraint firstItem="yY1-EY-mI4" firstAttribute="top" secondItem="YtQ-na-Zf4" secondAttribute="bottom" constant="20" id="ZyU-7b-AJg"/>
+                            <constraint firstItem="6r9-6d-VWV" firstAttribute="top" secondItem="4nh-6n-LDe" secondAttribute="bottom" constant="20" id="cgR-qg-sXs"/>
+                            <constraint firstItem="YtQ-na-Zf4" firstAttribute="top" secondItem="w06-7Y-UzB" secondAttribute="top" constant="100" id="nmv-4P-PHP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="w06-7Y-UzB"/>
                     </view>
                     <navigationItem key="navigationItem" id="28R-Yv-pas"/>

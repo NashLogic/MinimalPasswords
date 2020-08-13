@@ -20,6 +20,7 @@
 		568C984424B9F2B800AE5DF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 568C984324B9F2B800AE5DF8 /* GoogleService-Info.plist */; };
 		56AE315A24C44D6F00810EB6 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AE315924C44D6F00810EB6 /* ViewControllerExtensions.swift */; };
 		56AE315C24C453D400810EB6 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AE315B24C453D400810EB6 /* ColorExtensions.swift */; };
+		56B71A1924E554B800DF6DB1 /* PasswordDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B71A1824E554B800DF6DB1 /* PasswordDetailViewController.swift */; };
 		56FA6F5A24BB3F410035D21F /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA6F5924BB3F410035D21F /* Realm.swift */; };
 		FFCE7828E4382E348F4C2752 /* libPods-MinimalPasswords.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B75A7775A4E7ED1C1773345E /* libPods-MinimalPasswords.a */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		568C984824B9F3BC00AE5DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = MinimalPasswords/Info.plist; sourceTree = SOURCE_ROOT; };
 		56AE315924C44D6F00810EB6 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
 		56AE315B24C453D400810EB6 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		56B71A1824E554B800DF6DB1 /* PasswordDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDetailViewController.swift; sourceTree = "<group>"; };
 		56CB9A6823AB4D4A000829DD /* MinimalPasswords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinimalPasswords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56FA6F5924BB3F410035D21F /* Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
 		56FFE42724658D0200D9C434 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -95,6 +97,7 @@
 				568C983124B9E6E100AE5DF8 /* LoginScreen.swift */,
 				568C982F24B9E6CC00AE5DF8 /* GeneratePasswordScreen.swift */,
 				568C982D24B9E6BC00AE5DF8 /* ListPasswordScreen.swift */,
+				56B71A1824E554B800DF6DB1 /* PasswordDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			files = (
 				56AE315A24C44D6F00810EB6 /* ViewControllerExtensions.swift in Sources */,
 				568C982C24B9E35A00AE5DF8 /* MainNavigationController.swift in Sources */,
+				56B71A1924E554B800DF6DB1 /* PasswordDetailViewController.swift in Sources */,
 				568C983024B9E6CC00AE5DF8 /* GeneratePasswordScreen.swift in Sources */,
 				56FA6F5A24BB3F410035D21F /* Realm.swift in Sources */,
 				568C983624B9E7A700AE5DF8 /* CustomButton.swift in Sources */,
