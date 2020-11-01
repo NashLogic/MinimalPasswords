@@ -14,7 +14,7 @@ import RealmSwift
 class ListPasswordsViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
-    
+            
     // Initial database setup
     var myTableView: UITableView  = UITableView()
     let realm = try! Realm()
@@ -47,6 +47,10 @@ class ListPasswordsViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         passwordList = Array(realm.objects(Password.self))
         tableView.reloadData()
+        
+        if let selectedIndexPath = tableView.indexPathForSelectedRow {
+            tableView.deselectRow(at: selectedIndexPath, animated: animated)
+        }
     }
     
     @objc func switchToGeneratePasswordVC() {
@@ -119,4 +123,13 @@ extension ListPasswordsViewController: UITableViewDataSource, UITableViewDelegat
         }
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let secondViewController = segue.destination as! PasswordDetailsViewController
+        
+        secondViewController.username = passwordList[tableView.indexPathForSelectedRow!.row].login
+        secondViewController.password = passwordList[tableView.indexPathForSelectedRow!.row].password
+    }
+
 }
+    
+

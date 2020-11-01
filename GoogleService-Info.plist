@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>988181939245-vlc12nqfaabql8n3v7l1tth7jpjbi1h1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.988181939245-vlc12nqfaabql8n3v7l1tth7jpjbi1h1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB11xwj3Ag1yq-bE1ne5uP3kFYGiUNjfzs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>988181939245</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>nicholas.testing.MinimalPasswords</string>
+	<key>PROJECT_ID</key>
+	<string>minimalpasswords</string>
+	<key>STORAGE_BUCKET</key>
+	<string>minimalpasswords.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:988181939245:ios:8dc7a51d917225091664a4</string>
+	<key>DATABASE_URL</key>
+	<string>https://minimalpasswords.firebaseio.com</string>
+</dict>
+</plist>
